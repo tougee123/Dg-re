@@ -1,0 +1,4 @@
+{"utc": "2026-10-16T13:59:46.574086+00:00", "event": "spawned-owned-debugger", "pid": 60467}
+{"utc": "2026-10-16T13:59:47.088210+00:00", "event": "ready", "pid": 60467, "observed_calls": ["getaddrinfo", "socket", "bind", "listen"]}
+{"utc": "2026-10-16T13:59:47.100095+00:00", "event": "resumed-owned-debugger"}
+{"utc": "2026-10-16T13:59:48.101159+00:00", "event": "detached", "reason": "process-terminated", "crash_present": false}

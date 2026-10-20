@@ -1,0 +1,62 @@
+{
+  "sample_sha": "3841f080d158a9a9f942eb0ca7f38ec8ba7e1677c23c1b92054fb82452e5cf78",
+  "parser_sites": {
+    "logind0": {
+      "site": "0x1008496ac",
+      "input": "x2=*(frame[0x1160] alloca scratch)",
+      "x2_load": [
+        "ldr",
+        "x2, [x9]"
+      ],
+      "options": [
+        "mov",
+        "x3, #1"
+      ],
+      "error": [
+        "mov",
+        "x4, #0"
+      ],
+      "input_indirect": true
+    },
+    "logind1": {
+      "site": "0x1005d08a8",
+      "input": "x2=*(frame[0x3768])",
+      "x9_load": [
+        "ldr",
+        "x9, [x19, #0x3768]"
+      ],
+      "x2_load": [
+        "ldr",
+        "x2, [x9]"
+      ],
+      "options": [
+        "mov",
+        "x3, #1"
+      ],
+      "error": [
+        "mov",
+        "x4, #0"
+      ],
+      "input_indirect": true
+    },
+    "recharged": {
+      "site": "0x10037c868",
+      "input": "x2=[x29,#-0xd8] (直接局部)",
+      "x2_load": [
+        "ldur",
+        "x2, [x29, #-0xd8]"
+      ],
+      "input_direct_local": true
+    }
+  },
+  "generalization": {
+    "all_take_frame_held_data_pointer": true,
+    "options_1_error_0": true,
+    "uniform_open_edges": [
+      "响应字节装填(真实最终响应进入该指针)未证",
+      "同事务/连接身份未证",
+      "logind0/logind1 的 indirect scratch 代次未证(CFF 多写者)"
+    ],
+    "note": "与 PROTOCOL_REVIEW §3.4/§7 的 '接口归属最终 live 响应=0、完整 live 解码闭合=0' 一致;离线到此为止。"
+  }
+}

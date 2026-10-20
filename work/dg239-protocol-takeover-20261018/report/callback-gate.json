@@ -1,0 +1,258 @@
+{
+  "sample_sha256": "3841f080d158a9a9f942eb0ca7f38ec8ba7e1677c23c1b92054fb82452e5cf78",
+  "windows": [
+    {
+      "va": "0x1005bbeac",
+      "bytes": "60fa1ef961fe1ef962021ff9e00303aa63065ff9600a1ff9",
+      "instructions": [
+        "0x1005bbeac: str x0, [x19, #0x3df0]",
+        "0x1005bbeb0: str x1, [x19, #0x3df8]",
+        "0x1005bbeb4: str x2, [x19, #0x3e00]",
+        "0x1005bbeb8: mov x0, x3",
+        "0x1005bbebc: ldr x3, [x19, #0x3e08]",
+        "0x1005bbec0: str x0, [x19, #0x3e10]"
+      ]
+    },
+    {
+      "va": "0x1005cae8c",
+      "bytes": "60c25af961025ff91f0000f9d8541494610a5ff960ca5af91f0000f9d4541494",
+      "instructions": [
+        "0x1005cae8c: ldr x0, [x19, #0x3580]",
+        "0x1005cae90: ldr x1, [x19, #0x3e00]",
+        "0x1005cae94: str xzr, [x0]",
+        "0x1005cae98: bl #0x100ae01f8",
+        "0x1005cae9c: ldr x1, [x19, #0x3e10]",
+        "0x1005caea0: ldr x0, [x19, #0x3590]",
+        "0x1005caea4: str xzr, [x0]",
+        "0x1005caea8: bl #0x100ae01f8"
+      ]
+    },
+    {
+      "va": "0x1005caeac",
+      "bytes": "6bfa5ef96cc65af96aca5af9689a75b969065ff98b0100f94a0140f94a0100f1ea079f1a6a9e35b9",
+      "instructions": [
+        "0x1005caeac: ldr x11, [x19, #0x3df0]",
+        "0x1005caeb0: ldr x12, [x19, #0x3588]",
+        "0x1005caeb4: ldr x10, [x19, #0x3590]",
+        "0x1005caeb8: ldr w8, [x19, #0x3598]",
+        "0x1005caebc: ldr x9, [x19, #0x3e08]",
+        "0x1005caec0: str x11, [x12]",
+        "0x1005caec4: ldr x10, [x10]",
+        "0x1005caec8: subs x10, x10, #0",
+        "0x1005caecc: cset w10, ne",
+        "0x1005caed0: str w10, [x19, #0x359c]"
+      ]
+    },
+    {
+      "va": "0x1005e1928",
+      "bytes": "6aca5af908780090081947b90b7800906b1d47b908010b6bec4c9b522c9bb7720b010c4a08010c2a08012b0aabea9b526b20bd72087d0b1b2be69f52cb35b9720809cb1a4b869f528b08b77208010b6be8079f1a",
+      "instructions": [
+        "0x1005e1928: ldr x10, [x19, #0x3590]",
+        "0x1005e192c: adrp x8, #0x1014e1000",
+        "0x1005e1930: ldr w8, [x8, #0x718]",
+        "0x1005e1934: adrp x11, #0x1014e1000",
+        "0x1005e1938: ldr w11, [x11, #0x71c]",
+        "0x1005e193c: subs w8, w8, w11",
+        "0x1005e1940: mov w12, #0xda67",
+        "0x1005e1944: movk w12, #0xbcd9, lsl #16",
+        "0x1005e1948: eor w11, w8, w12",
+        "0x1005e194c: orr w8, w8, w12",
+        "0x1005e1950: bic w8, w8, w11",
+        "0x1005e1954: mov w11, #0xdf55",
+        "0x1005e1958: movk w11, #0xe903, lsl #16",
+        "0x1005e195c: mul w8, w8, w11",
+        "0x1005e1960: mov w11, #0xff31",
+        "0x1005e1964: movk w11, #0xc9ae, lsl #16",
+        "0x1005e1968: udiv w8, w8, w11",
+        "0x1005e196c: mov w11, #0xfc32",
+        "0x1005e1970: movk w11, #0xb844, lsl #16",
+        "0x1005e1974: subs w8, w8, w11",
+        "0x1005e1978: cset w8, ne"
+      ]
+    },
+    {
+      "va": "0x1005e197c",
+      "bytes": "4a0140f94a0100f1ea079f1a6a9e2fb9",
+      "instructions": [
+        "0x1005e197c: ldr x10, [x10]",
+        "0x1005e1980: subs x10, x10, #0",
+        "0x1005e1984: cset w10, ne",
+        "0x1005e1988: str w10, [x19, #0x2f9c]"
+      ]
+    },
+    {
+      "va": "0x1005fbb74",
+      "bytes": "69065ff9689e75b928fd10b9288148f929fd90b9087969f800011fd6",
+      "instructions": [
+        "0x1005fbb74: ldr x9, [x19, #0x3e08]",
+        "0x1005fbb78: ldr w8, [x19, #0x359c]",
+        "0x1005fbb7c: str w8, [x9, #0x10fc]",
+        "0x1005fbb80: ldr x8, [x9, #0x1100]",
+        "0x1005fbb84: ldrsw x9, [x9, #0x10fc]",
+        "0x1005fbb88: ldr x8, [x8, x9, lsl #3]",
+        "0x1005fbb8c: br x8"
+      ]
+    },
+    {
+      "va": "0x1005cc86c",
+      "bytes": "69065ff9689e6fb9286d10b9283948f9296d90b9087969f800011fd6",
+      "instructions": [
+        "0x1005cc86c: ldr x9, [x19, #0x3e08]",
+        "0x1005cc870: ldr w8, [x19, #0x2f9c]",
+        "0x1005cc874: str w8, [x9, #0x106c]",
+        "0x1005cc878: ldr x8, [x9, #0x1070]",
+        "0x1005cc87c: ldrsw x9, [x9, #0x106c]",
+        "0x1005cc880: ldr x8, [x8, x9, lsl #3]",
+        "0x1005cc884: br x8"
+      ]
+    },
+    {
+      "va": "0x1005bca5c",
+      "bytes": "a87d009008613d91688008f9",
+      "instructions": [
+        "0x1005bca5c: adrp x8, #0x101570000",
+        "0x1005bca60: add x8, x8, #0xf58",
+        "0x1005bca64: str x8, [x3, #0x1100]"
+      ]
+    },
+    {
+      "va": "0x1005bcad0",
+      "bytes": "a87d009008213f91683808f9",
+      "instructions": [
+        "0x1005bcad0: adrp x8, #0x101570000",
+        "0x1005bcad4: add x8, x8, #0xfc8",
+        "0x1005bcad8: str x8, [x3, #0x1070]"
+      ]
+    },
+    {
+      "va": "0x100ae01f8",
+      "bytes": "f0060090103245f900021fd6",
+      "instructions": [
+        "0x100ae01f8: adrp x16, #0x100bbc000",
+        "0x100ae01fc: ldr x16, [x16, #0xa60]",
+        "0x100ae0200: br x16"
+      ]
+    },
+    {
+      "va": "0x1005ce924",
+      "bytes": "001140f9604616f9",
+      "instructions": [
+        "0x1005ce924: ldr x0, [x8, #0x20]",
+        "0x1005ce928: str x0, [x19, #0x2c88]"
+      ]
+    },
+    {
+      "va": "0x1005fc164",
+      "bytes": "614e56f9604656f9c82c0090085d41f900013fd660f20df9",
+      "instructions": [
+        "0x1005fc164: ldr x1, [x19, #0x2c98]",
+        "0x1005fc168: ldr x0, [x19, #0x2c88]",
+        "0x1005fc16c: adrp x8, #0x100b94000",
+        "0x1005fc170: ldr x8, [x8, #0x2b8]",
+        "0x1005fc174: blr x8",
+        "0x1005fc178: str x0, [x19, #0x1be0]"
+      ]
+    }
+  ],
+  "imports": [
+    {
+      "stub_va": "0x100ae01f8",
+      "stub_bytes": "f0060090103245f900021fd6",
+      "indirect_index": 338,
+      "indirect_fileoff": 23046512,
+      "indirect_bytes": "f1010000",
+      "symbol_index": 497,
+      "symbol_fileoff": 23041720,
+      "symbol_bytes": "0d2900000100000d0000000000000000",
+      "string_fileoff": 23060429,
+      "name": "_objc_storeStrong"
+    },
+    {
+      "stub_va": "0x100ae00e4",
+      "stub_bytes": "f006009010d644f900021fd6",
+      "indirect_index": 315,
+      "indirect_fileoff": 23046420,
+      "indirect_bytes": "da010000",
+      "symbol_index": 474,
+      "symbol_fileoff": 23041352,
+      "symbol_bytes": "1b2700000100000d0000000000000000",
+      "string_fileoff": 23059931,
+      "name": "_objc_autoreleaseReturnValue"
+    }
+  ],
+  "tables": {
+    "0x101570f58": {
+      "bytes": "b87b5f000100000088855e0001000000",
+      "targets": [
+        "0x1005f7bb8",
+        "0x1005e8588"
+      ]
+    },
+    "0x101570fc8": {
+      "bytes": "90545d00010000008c42600001000000",
+      "targets": [
+        "0x1005d5490",
+        "0x10060428c"
+      ]
+    }
+  },
+  "argument_slots": {
+    "entry_x0": "frame+3DF0",
+    "entry_x1": "frame+3DF8",
+    "entry_x2": "frame+3E00",
+    "entry_x3": "frame+3E10"
+  },
+  "external_write_boundaries": [
+    "5CAE98: AE01F8(slot3580, entry_x2)",
+    "5CAEA8: AE01F8(slot3590, entry_x3)"
+  ],
+  "first_read": "5CAEC4 dereferences frame3590; NE predicate stored frame359C",
+  "second_read": "5E1928 loads frame3590; 5E197C dereferences it in a separate memory epoch",
+  "captured_body": "5CE924 loads saved entry_x0+20 -> frame2C88; 5FC168 loads receiver from frame2C88",
+  "local_cases": [
+    {
+      "epoch1_value": "0x0",
+      "epoch2_value": "0x0",
+      "first_index": 0,
+      "second_index": 0,
+      "first_target": "0x1005f7bb8",
+      "second_target": "0x1005d5490",
+      "meaning": "independent local fixtures, NOT a sequential callback path"
+    },
+    {
+      "epoch1_value": "0x0",
+      "epoch2_value": "0x1234",
+      "first_index": 0,
+      "second_index": 1,
+      "first_target": "0x1005f7bb8",
+      "second_target": "0x10060428c",
+      "meaning": "independent local fixtures, NOT a sequential callback path"
+    },
+    {
+      "epoch1_value": "0x1234",
+      "epoch2_value": "0x0",
+      "first_index": 1,
+      "second_index": 0,
+      "first_target": "0x1005e8588",
+      "second_target": "0x1005d5490",
+      "meaning": "independent local fixtures, NOT a sequential callback path"
+    },
+    {
+      "epoch1_value": "0xffffffffffffffff",
+      "epoch2_value": "0xffffffffffffffff",
+      "first_index": 1,
+      "second_index": 1,
+      "first_target": "0x1005e8588",
+      "second_target": "0x10060428c",
+      "meaning": "independent local fixtures, NOT a sequential callback path"
+    }
+  ],
+  "limits": [
+    "AE01F8 imports objc_storeStrong; symbol identity does not establish runtime implementation, aliasing or lifetime effects",
+    "No proof the two reads observe equal pointer slots or equal pointee epochs",
+    "Context tables and alias-free fixture words are explicit local preconditions",
+    "Argument positions alone do not prove actual runtime URLSession callback identity",
+    "Capture+20 is not callback response data; no nil/error/HTTP behavior is assumed",
+    "No whole-path reachability, request omission equivalence, authorization or UI success proof"
+  ]
+}

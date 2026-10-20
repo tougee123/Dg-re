@@ -1,0 +1,58 @@
+{
+  "sample_sha": "3841f080d158a9a9f942eb0ca7f38ec8ba7e1677c23c1b92054fb82452e5cf78",
+  "proven_edges": {
+    "parse_site": {
+      "x9_eq_frame_0x1160": true,
+      "x2_eq_deref_buffer": true,
+      "options_1": true,
+      "error_0": true,
+      "parse_call": true,
+      "result_to_frame_0xf78": true
+    },
+    "buffer_content_writer": {
+      "load_frame_0x1158": true,
+      "load_buffer_0x1160": true,
+      "store_through_buffer": true
+    },
+    "frame_0x1158": {
+      "single_writer": true,
+      "writer_is_wrapper_of_frame_0x6f8": true,
+      "direct_branch_to_buffer_block": true
+    },
+    "alloc": {
+      "load_class_frame_0x9f0": true,
+      "call_objc_alloc": true,
+      "objc_alloc_import": true,
+      "store_frame_0x6f8": true
+    },
+    "accumulation_class": {
+      "classref_va": "0x100bc28f8",
+      "bind_symbol": "_OBJC_CLASS_$_NSMutableData",
+      "is_NSMutableData": true
+    },
+    "instance_not_filled_in_func": {
+      "frame_0x6f8_access_count": 2,
+      "no_append_or_ivar_store_in_outer_func": true
+    }
+  },
+  "negative_tests": {
+    "frame1158_read_imm_byte_derived": true,
+    "frame1158_single_writer_count_is_1": true
+  },
+  "unresolved_edges": [
+    "appendData:/appendBytes:length: 的实际调用点是否写入**本 NSMutableData 实例**(frame[0x6f8])——接收累积写经对象指针,不在帧槽拷贝链内;两选择子字符串存在(fileoff 0xb11ae7 / 0xb11ad3),但到本实例的 xref 绑定未闭合。",
+    "buffer frame[0x1160] 有 3 个写者(0x10080d0c0 / 0x100810f24 / 0x10084d8b8 alloca);parse 读取的 buffer 代次与内容写(0x100834bec)代次在 CFF br x8 分派下未证相等(frame[0x1158] 单写者使对象身份稳定,但 buffer 代次仍未闭合)。",
+    "同事务接收绑定:该 NSMutableData 累积的是 logind0 **服务器响应**(而非请求回显或他连接),需把 appendData 源绑定到 logind0 连接的 didReceiveData 接收回调(连接代次/事务身份)——handoff 的接收登记(选项 10001/20011)核心开放边。"
+  ],
+  "verdict": {
+    "candidate_object_class": "NSMutableData(objc_alloc @0x100842618;classref *(0x100bc28f8)=_OBJC_CLASS_$_NSMutableData)",
+    "proven_slot_path": "frame[0x9f0](类) -> frame[0x6f8]=objc_alloc(类) -> (retain 0x1008965c8) frame[0x1158] -> *(alloca scratch frame[0x1160]) @0x100834bec -> parser x2 @0x1008496a0(options=1 err=0 -> frame[0xf78]);frame[0x1158] 写->buffer 写为直接分支(写序已证)",
+    "CORRECTED_not_overclaimed": [
+      "frame[0x1160] 是 alloca scratch,有 3 个地址写者(0x10080d0c0/0x100810f24/0x10084d8b8);parser 读的 buffer 代次与 0x100834bec 写的代次在 CFF 下未证相等 => 不能断定 parser 读到的就是该 NSMutableData。",
+      "frame[0x6f8] 在外层函数仅 2 处访问、无 appendData/无 ivar-store => 本函数内未见该实例被填充;appendData 在独立委托函数(0x100386e3c 等)。",
+      "因此'parser 输入==已装填响应字节的接收累积对象'离线未证;这与 handoff 告警一致(frame+0x1160 存分配地址而非响应正文写;登记存对象值而非响应 cell)。"
+    ],
+    "status": "已原字节定位 parser 输入=*(alloca scratch);候选内容写是一枚新 objc_alloc 的 NSMutableData(类已离线绑定),但 buffer 代次、该实例是否被响应字节装填、同事务接收绑定三者离线未闭合。",
+    "scope": "原字节 + 离线 fixup;非实机证明;不声称 parser 读到响应或授权成立。"
+  }
+}

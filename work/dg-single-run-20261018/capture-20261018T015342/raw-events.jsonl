@@ -1,0 +1,13 @@
+{"time": 1792313622.8667688, "event": {"action": "spawn", "pid": 3341}}
+{"time": 1792313623.018961, "event": {"type": "send", "payload": {"event": "ready", "pid": 3341, "probeCount": 1, "offset": "0x6451bc", "patched": "5000005800021fd600c0fb0301000000"}}}
+{"time": 1792313623.025644, "event": {"action": "resume", "pid": 3341}}
+{"time": 1792313623.091008, "event": {"type": "send", "payload": {"event": "retained-return", "seq": 1, "tid": 11267, "pc": "0x102ce91bc", "frame": "0x16dc380b0", "result": "0x281692200"}}}
+{"time": 1792313625.152021, "event": {"type": "send", "payload": {"event": "retained-return", "seq": 2, "tid": 259, "pc": "0x102ce91bc", "frame": "0x16d749bc0", "result": "0x28168d580"}}}
+{"time": 1792313625.155605, "event": {"type": "send", "payload": {"event": "retained-return", "seq": 3, "tid": 259, "pc": "0x102ce91bc", "frame": "0x16d749380", "result": "0x28168d040"}}}
+{"time": 1792313625.3235898, "event": {"type": "send", "payload": {"event": "retained-return", "seq": 4, "tid": 11267, "pc": "0x102ce91bc", "frame": "0x16dc217c0", "result": "0x2816d7700"}}}
+{"time": 1792313625.33677, "event": {"type": "send", "payload": {"event": "retained-return", "seq": 5, "tid": 259, "pc": "0x102ce91bc", "frame": "0x16d7499e0", "result": "0x2816d5180"}}}
+{"time": 1792313647.1093981, "event": {"type": "send", "payload": {"event": "retained-return", "seq": 6, "tid": 259, "pc": "0x102ce91bc", "frame": "0x16d749c80", "result": "0x281699040"}}}
+{"time": 1792313648.060169, "event": {"type": "send", "payload": {"event": "retained-return", "seq": 7, "tid": 259, "pc": "0x102ce91bc", "frame": "0x16d749be0", "result": "0x28163d740"}}}
+{"time": 1792313655.105634, "event": {"type": "send", "payload": {"event": "retained-return", "seq": 8, "tid": 259, "pc": "0x102ce91bc", "frame": "0x16d749ad0", "result": "0x28165c200"}}}
+{"time": 1792313658.052222, "event": {"action": "detached", "reason": "application-requested", "crash_present": false}}
+{"time": 1792313658.111309, "event": {"action": "finished", "resumed": true, "alive": true}}

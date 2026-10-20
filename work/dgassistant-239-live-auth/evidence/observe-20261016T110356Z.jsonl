@@ -1,0 +1,20 @@
+{"host_utc": "2026-10-16T11:03:56.938576+00:00", "event": "spawn-begin", "identifier": "apple.allIDTDG"}
+{"host_utc": "2026-10-16T11:03:57.370533+00:00", "event": "spawn-returned-paused", "pid": 59317}
+{"host_utc": "2026-10-16T11:03:57.389705+00:00", "event": "server-only-resume-before-late-attach", "pid": 59317}
+{"host_utc": "2026-10-16T11:03:59.394995+00:00", "event": "bare-attach-begin", "pid": 59317, "app_paused": false}
+{"host_utc": "2026-10-16T11:03:59.540143+00:00", "event": "bare-attached"}
+{"host_utc": "2026-10-16T11:03:59.540804+00:00", "event": "script-source", "path": "observe-20261016T110356Z-loaded.js", "sha256": "cec75d724d7db0e373104f1c7c10a68ff70c3ce39020c5e5f1c66abd0568c68c"}
+{"host_utc": "2026-10-16T11:03:59.608567+00:00", "event": "metadata-script-load-begin"}
+{"host_utc": "2026-10-16T11:03:59.624069+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "metadata-identity", "device_ms": 1792148640217, "tid": 34051, "base": "0x102730000", "size": 12140544, "anchors_verified": 17, "states": {"14c2c0c": 2, "14c2c14": 257, "14c2c18": 257, "14c2c48": 2}}}}
+{"host_utc": "2026-10-16T11:03:59.630801+00:00", "event": "entry-observers-install-begin"}
+{"host_utc": "2026-10-16T11:03:59.994239+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "entry-observers-ready", "device_ms": 1792148640267, "tid": 34051, "count": 17, "states": {"14c2c0c": 2, "14c2c14": 257, "14c2c18": 257, "14c2c48": 2}}}}
+{"host_utc": "2026-10-16T11:04:00.517496+00:00", "event": "details-observers-install-begin"}
+{"host_utc": "2026-10-16T11:04:00.517560+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "entry", "device_ms": 1792148640401, "tid": 17415, "name": "clipboard-helper-no-content", "offset": 4869676, "caller": "DGAssistant+0x5f9ba8", "states": {"14c2c0c": 2, "14c2c14": 257, "14c2c18": 257, "14c2c48": 2}}}}
+{"host_utc": "2026-10-16T11:04:00.663650+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "entry", "device_ms": 1792148640925, "tid": 259, "name": "authorization-request", "offset": 4978272, "caller": "DGAssistant+0x6bf004", "states": {"14c2c0c": 2, "14c2c14": 257, "14c2c18": 257, "14c2c48": 2}}}}
+{"host_utc": "2026-10-16T11:04:00.663832+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "entry", "device_ms": 1792148641057, "tid": 41475, "name": "first-response-completion", "offset": 6012488, "caller": "CFNetwork+0x207fc", "states": {"14c2c0c": 2, "14c2c14": 257, "14c2c18": 257, "14c2c48": 2}}}}
+{"host_utc": "2026-10-16T11:04:00.670647+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "details-observers-ready", "device_ms": 1792148641263, "tid": 34051, "raw_payloads_or_secrets": false}}}
+{"host_utc": "2026-10-16T11:04:01.041631+00:00", "event": "observing-original-unactivated-path", "secrets_recorded": false, "valid_code_available": false}
+{"host_utc": "2026-10-16T11:04:02.086559+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "entry", "device_ms": 1792148642503, "tid": 41475, "name": "clipboard-helper-no-content", "offset": 4869676, "caller": "DGAssistant+0x5f9ba8", "states": {"14c2c0c": 2, "14c2c14": 257, "14c2c18": 257, "14c2c48": 2}}}}
+{"host_utc": "2026-10-16T11:04:04.750360+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "termination-entry", "device_ms": 1792148645345, "tid": 259, "name": "exit", "status": 0, "caller": "DGAssistant+0x4bf248", "states": {"14c2c0c": 2, "14c2c14": 257, "14c2c18": 257, "14c2c48": 2}}}}
+{"host_utc": "2026-10-16T11:04:05.273539+00:00", "event": "detached", "reason": "process-terminated", "crash_present": false}
+{"host_utc": "2026-10-16T11:04:05.273656+00:00", "event": "observation-ended"}

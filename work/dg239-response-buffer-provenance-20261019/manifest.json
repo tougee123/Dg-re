@@ -1,0 +1,83 @@
+{
+  "scope": "Local static evidence only; not complete protocol acceptance",
+  "files": [
+    {
+      "path": "STATUS.json",
+      "bytes": 876,
+      "sha256": "96b5ec391342b50504304771477cb159e0e2d27c232b8cd1f36fe3462b72d251"
+    },
+    {
+      "path": "evidence/bind_provenance.py",
+      "bytes": 6339,
+      "sha256": "3b02c66e1af4d6788bd5262402d65bdd418aac2adfcbc87923ed5f7b80064b6e"
+    },
+    {
+      "path": "evidence/buffer_arguments.py",
+      "bytes": 2920,
+      "sha256": "50dad4f88d2e43e520d8e726d13af83efd9e48e45ab5c992ac9e0a1fb4278ece"
+    },
+    {
+      "path": "evidence/test_bind_provenance.py",
+      "bytes": 3249,
+      "sha256": "f3b1fab6ba3f9f8b6aaa6e11fd173edc815ef5401c46b2bbe9a563cf1710cc7a"
+    },
+    {
+      "path": "evidence/test_buffer_arguments.py",
+      "bytes": 3767,
+      "sha256": "f6de8481a0c0234bc9c0b70c170fa8bac448b96ea6e71f7d407e1b9de438acb7"
+    },
+    {
+      "path": "report/BUFFER_PROVENANCE_REVIEW.md",
+      "bytes": 5441,
+      "sha256": "6f4d8bdf0f4faf054fff5176e11614b1c3506f115fab580f8fff15120c9aecb9"
+    },
+    {
+      "path": "report/bindings.json",
+      "bytes": 133400,
+      "sha256": "4127788ce38b7737dd0acd8cca97ea7557a55598e9028830a5d580208aed60b4"
+    },
+    {
+      "path": "report/buffer-arguments.json",
+      "bytes": 151069,
+      "sha256": "6583aee8c67c3bfe77ba3c097112c83c9e66f29117d9e80db85bac274b624416"
+    },
+    {
+      "path": "report/integrity-checks.json",
+      "bytes": 597,
+      "sha256": "e5823eb237eb2fb8433b3c2c84e8e79d726a3e35e54d276cc196a9797348cb07"
+    },
+    {
+      "path": "report/tests-combined.txt",
+      "bytes": 1611,
+      "sha256": "32c080940bc1954b0b9a62572b78127397d534001203bc4526396429e662e597"
+    },
+    {
+      "path": "report/tests-initial.txt",
+      "bytes": 764,
+      "sha256": "2f50c4a69b1ed485a385657e54e20a02f87ac5ff1376bbcb7cb402824b0aea16"
+    },
+    {
+      "path": "scope.md",
+      "bytes": 557,
+      "sha256": "039e6ed5ad89f94b9e4d5eca0b35e5a5c5c21763dd943033a2fd7c17912756a9"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "work/dg239-protocol-receive-binding-20261019/manifest.json",
+      "sha256": "382afc1d81a812f0a65b6b5165547277e69aa8cd1665cc04740d63ffaf2fecca"
+    },
+    {
+      "path": "work/dg239-protocol-receive-binding-20261019/evidence/receive_slices.py",
+      "sha256": "594b5e2061f24eedec8306cae48e9b9cb690b92580b081d1ca82061347e3168f"
+    },
+    {
+      "path": "work/dg239-protocol-takeover-20261018/evidence/binary_evidence.py",
+      "sha256": "97746775b52610d62192d3313cbe4afa77c21e7ca2bdc463a20e685569c646b4"
+    },
+    {
+      "path": "work/dgassistant-237-239-diff/2.3.9/DGAssistant",
+      "sha256": "3841f080d158a9a9f942eb0ca7f38ec8ba7e1677c23c1b92054fb82452e5cf78"
+    }
+  ]
+}

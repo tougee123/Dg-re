@@ -1,0 +1,3 @@
+{"utc": "2026-10-16T12:32:13.275484+00:00", "event": "attached", "pid": 59980}
+{"utc": "2026-10-16T12:32:13.557585+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "selected-constant-names", "device_ms": 1792153934278, "scanned": 2097, "matches": [{"offset": 12299320, "name": "tz0111endtime"}, {"offset": 21800448, "name": "endtime"}, {"offset": 21800800, "name": "tz0111endtime"}, {"offset": 21802560, "name": "tz0111ct"}, {"offset": 21803008, "name": "endtime"}, {"offset": 21804672, "name": "tz0111ct"}, {"offset": 21805216, "name": "endtime"}], "hooks": 0, "target_method_calls": 0}}}
+{"utc": "2026-10-16T12:32:13.596987+00:00", "event": "detach-wait", "completed": true}

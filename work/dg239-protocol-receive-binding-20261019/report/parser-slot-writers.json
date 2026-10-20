@@ -1,0 +1,48 @@
+{
+  "sample_sha256": "3841f080d158a9a9f942eb0ca7f38ec8ba7e1677c23c1b92054fb82452e5cf78",
+  "windows": [
+    {
+      "va": "0x100843fb0",
+      "bytes": "60b248f9010080d290700a94",
+      "instructions": [
+        "0x100843fb0: ldr x0, [x19, #0x1160]",
+        "0x100843fb4: mov x1, #0",
+        "0x100843fb8: bl #0x100ae01f8"
+      ]
+    },
+    {
+      "va": "0x100849b48",
+      "bytes": "60b248f961ba41f9aa590a94",
+      "instructions": [
+        "0x100849b48: ldr x0, [x19, #0x1160]",
+        "0x100849b4c: ldr x1, [x19, #0x370]",
+        "0x100849b50: bl #0x100ae01f8"
+      ]
+    }
+  ],
+  "import": {
+    "stub_va": "0x100ae01f8",
+    "stub_bytes": "f0060090103245f900021fd6",
+    "indirect_index": 338,
+    "indirect_fileoff": 23046512,
+    "indirect_bytes": "f1010000",
+    "symbol_index": 497,
+    "symbol_fileoff": 23041720,
+    "symbol_bytes": "0d2900000100000d0000000000000000",
+    "string_fileoff": 23060429,
+    "name": "_objc_storeStrong"
+  },
+  "scope": "Two prepared calls, not executed writes or a connected CFG",
+  "target_argument": "x0 is loaded from current frame+0x1160",
+  "value_arguments": {
+    "0x100843fb0": "zero",
+    "0x100849b48": "current frame+0x370"
+  },
+  "call_barriers": [
+    "0x100843fb8",
+    "0x100849b50"
+  ],
+  "effects_proven": false,
+  "same_request_order_proven": false,
+  "parser_input_identity_proven": false
+}

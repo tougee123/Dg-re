@@ -1,0 +1,31 @@
+test_artifact_rebuild_when_present (__main__.BridgeTests.test_artifact_rebuild_when_present) ... skipped 'artifact not yet generated'
+test_callback_option_stops_before_branch (__main__.BridgeTests.test_callback_option_stops_before_branch) ... ok
+test_callback_registration_initial_object_and_handle_order (__main__.BridgeTests.test_callback_registration_initial_object_and_handle_order) ... ok
+test_callback_replacement_is_not_response_object_identity (__main__.BridgeTests.test_callback_replacement_is_not_response_object_identity) ... ok
+test_cursor_alias_observes_write_before_read (__main__.BridgeTests.test_cursor_alias_observes_write_before_read) ... ok
+test_json_parser_stops_at_live_dispatch_and_reads_current_epoch (__main__.BridgeTests.test_json_parser_stops_at_live_dispatch_and_reads_current_epoch) ... ok
+test_option_userdata_write_and_cursor_advance (__main__.BridgeTests.test_option_userdata_write_and_cursor_advance) ... ok
+test_pins_and_scope (__main__.BridgeTests.test_pins_and_scope) ... ERROR
+test_postcall_memory_versions_cannot_be_assumed_stable (__main__.BridgeTests.test_postcall_memory_versions_cannot_be_assumed_stable) ... ok
+test_postcall_uses_saved_memory_not_x0_return (__main__.BridgeTests.test_postcall_uses_saved_memory_not_x0_return) ... ok
+test_primary_and_secondary_userdata_are_distinct (__main__.BridgeTests.test_primary_and_secondary_userdata_are_distinct) ... ok
+test_registration_save_can_alias_later_object_read (__main__.BridgeTests.test_registration_save_can_alias_later_object_read) ... ok
+test_registration_saves_then_passes_current_object (__main__.BridgeTests.test_registration_saves_then_passes_current_object) ... ok
+test_reject_changed_bytes_import_selector_and_route (__main__.BridgeTests.test_reject_changed_bytes_import_selector_and_route) ... ok
+test_restore_uses_current_saved_fields_not_registration_constants (__main__.BridgeTests.test_restore_uses_current_saved_fields_not_registration_constants) ... ok
+test_userdata_saved_before_retain_barrier (__main__.BridgeTests.test_userdata_saved_before_retain_barrier) ... ok
+
+======================================================================
+ERROR: test_pins_and_scope (__main__.BridgeTests.test_pins_and_scope)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/tougee/Downloads/DG 管理器/work/dg239-protocol-receive-binding-20261019/evidence/test_response_bridge.py", line 32, in test_pins_and_scope
+    result = build(self.sample)
+  File "/Users/tougee/Downloads/DG 管理器/work/dg239-protocol-receive-binding-20261019/evidence/response_bridge.py", line 37, in build
+    raise ValueError("selector or import identity changed")
+ValueError: selector or import identity changed
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.020s
+
+FAILED (errors=1, skipped=1)

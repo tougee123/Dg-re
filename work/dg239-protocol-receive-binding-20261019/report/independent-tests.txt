@@ -1,0 +1,43 @@
+test_arguments_stop_before_store_or_lifetime_effects (test_parser_slot_writers.ParserSlotTests.test_arguments_stop_before_store_or_lifetime_effects) ... ok
+test_artifact_matches_original_sample (test_parser_slot_writers.ParserSlotTests.test_artifact_matches_original_sample) ... ok
+test_each_window_and_import_mutation_is_rejected (test_parser_slot_writers.ParserSlotTests.test_each_window_and_import_mutation_is_rejected) ... ok
+test_artifact_rebuild_when_present (test_receive_slices.ReceiveTests.test_artifact_rebuild_when_present) ... ok
+test_byte_store_aliases_index_slot (test_receive_slices.ReceiveTests.test_byte_store_aliases_index_slot) ... ok
+test_cleanup_count_copy_before_barrier_not_lifetime_proof (test_receive_slices.ReceiveTests.test_cleanup_count_copy_before_barrier_not_lifetime_proof) ... ok
+test_copy_both_blocks_offsets_wrap_and_byte_width (test_receive_slices.ReceiveTests.test_copy_both_blocks_offsets_wrap_and_byte_width) ... ok
+test_copy_index_read_epochs_not_conflated (test_receive_slices.ReceiveTests.test_copy_index_read_epochs_not_conflated) ... ok
+test_count_alias_counterexample (test_receive_slices.ReceiveTests.test_count_alias_counterexample) ... ok
+test_count_arithmetic_boundaries_and_seeded_random (test_receive_slices.ReceiveTests.test_count_arithmetic_boundaries_and_seeded_random) ... ok
+test_import_mutation_rejected (test_receive_slices.ReceiveTests.test_import_mutation_rejected) ... ok
+test_increment_modulo64 (test_receive_slices.ReceiveTests.test_increment_modulo64) ... ok
+test_length_and_mutable_bytes_stop_before_message_send (test_receive_slices.ReceiveTests.test_length_and_mutable_bytes_stop_before_message_send) ... ok
+test_missing_memory_unknown_opcode_and_truncated_fail (test_receive_slices.ReceiveTests.test_missing_memory_unknown_opcode_and_truncated_fail) ... ok
+test_original_pins_imports_and_selectors (test_receive_slices.ReceiveTests.test_original_pins_imports_and_selectors) ... ok
+test_pin_mutation_rejected (test_receive_slices.ReceiveTests.test_pin_mutation_rejected) ... ok
+test_pointer_setup_order_with_alias (test_receive_slices.ReceiveTests.test_pointer_setup_order_with_alias) ... ok
+test_register_width_and_partial_memory_write (test_receive_slices.ReceiveTests.test_register_width_and_partial_memory_write) ... ok
+test_resize_alias_changes_product_epoch (test_receive_slices.ReceiveTests.test_resize_alias_changes_product_epoch) ... ok
+test_resize_arguments_stop_before_external_effects (test_receive_slices.ReceiveTests.test_resize_arguments_stop_before_external_effects) ... ok
+test_selector_mutation_rejected (test_receive_slices.ReceiveTests.test_selector_mutation_rejected) ... ok
+test_unwind_is_barrier_not_length_fallthrough (test_receive_slices.ReceiveTests.test_unwind_is_barrier_not_length_fallthrough) ... ok
+test_artifact_rebuild_when_present (test_response_bridge.BridgeTests.test_artifact_rebuild_when_present) ... ok
+test_callback_option_stops_before_branch (test_response_bridge.BridgeTests.test_callback_option_stops_before_branch) ... ok
+test_callback_registration_initial_object_and_handle_order (test_response_bridge.BridgeTests.test_callback_registration_initial_object_and_handle_order) ... ok
+test_callback_replacement_is_not_response_object_identity (test_response_bridge.BridgeTests.test_callback_replacement_is_not_response_object_identity) ... ok
+test_cursor_alias_observes_write_before_read (test_response_bridge.BridgeTests.test_cursor_alias_observes_write_before_read) ... ok
+test_json_parser_stops_at_live_dispatch_and_reads_current_epoch (test_response_bridge.BridgeTests.test_json_parser_stops_at_live_dispatch_and_reads_current_epoch) ... ok
+test_option_userdata_write_and_cursor_advance (test_response_bridge.BridgeTests.test_option_userdata_write_and_cursor_advance) ... ok
+test_pins_and_scope (test_response_bridge.BridgeTests.test_pins_and_scope) ... ok
+test_postcall_memory_versions_cannot_be_assumed_stable (test_response_bridge.BridgeTests.test_postcall_memory_versions_cannot_be_assumed_stable) ... ok
+test_postcall_uses_saved_memory_not_x0_return (test_response_bridge.BridgeTests.test_postcall_uses_saved_memory_not_x0_return) ... ok
+test_primary_and_secondary_userdata_are_distinct (test_response_bridge.BridgeTests.test_primary_and_secondary_userdata_are_distinct) ... ok
+test_registration_save_can_alias_later_object_read (test_response_bridge.BridgeTests.test_registration_save_can_alias_later_object_read) ... ok
+test_registration_saves_then_passes_current_object (test_response_bridge.BridgeTests.test_registration_saves_then_passes_current_object) ... ok
+test_reject_changed_bytes_import_selector_and_route (test_response_bridge.BridgeTests.test_reject_changed_bytes_import_selector_and_route) ... ok
+test_restore_uses_current_saved_fields_not_registration_constants (test_response_bridge.BridgeTests.test_restore_uses_current_saved_fields_not_registration_constants) ... ok
+test_userdata_saved_before_retain_barrier (test_response_bridge.BridgeTests.test_userdata_saved_before_retain_barrier) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.143s
+
+OK

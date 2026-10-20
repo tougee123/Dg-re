@@ -1,0 +1,6 @@
+{"utc": "2026-10-16T14:08:39.858263+00:00", "event": "DG-process-preflight", "active_pids": []}
+{"utc": "2026-10-16T14:08:40.108559+00:00", "event": "spawned-paused", "pid": 60554}
+{"utc": "2026-10-16T14:08:40.683555+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "single-callback-ready", "sequence": 1, "elapsed_ms": 3, "tid": 6659, "startup_hook_count": 1}}}
+{"utc": "2026-10-16T14:08:40.697443+00:00", "event": "resumed-original-startup", "pid": 60554}
+{"utc": "2026-10-16T14:08:41.290836+00:00", "event": "detached", "reason": "process-terminated", "crash_present": false}
+{"utc": "2026-10-16T14:08:41.291557+00:00", "event": "capture-ended", "attached": false}

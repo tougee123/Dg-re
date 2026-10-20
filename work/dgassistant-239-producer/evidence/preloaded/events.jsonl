@@ -1,0 +1,6 @@
+{"utc": "2026-10-16T12:40:08.256010+00:00", "event": "spawned-paused", "pid": 60102}
+{"utc": "2026-10-16T12:40:08.527078+00:00", "event": "attached", "pid": 60102, "mode": "preloaded", "paused": true}
+{"utc": "2026-10-16T12:40:08.556651+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "entry-ready", "seq": 1, "device_ms": 1792154409504, "tid": 3587, "states": {"14c2c0c": 2, "14c2c14": 257, "14c2c18": 257, "14c2c48": 2}, "anchors_verified": 18, "base": "0x1026f8000", "onLeave_hooks": 0}}}
+{"utc": "2026-10-16T12:40:08.568734+00:00", "event": "resumed-original-startup", "pid": 60102}
+{"utc": "2026-10-16T12:40:09.152647+00:00", "event": "detached", "reason": "process-terminated", "crash_present": false}
+{"utc": "2026-10-16T12:40:09.190589+00:00", "event": "window-ended", "pid": 60102, "alive": false, "first_callback_captured": false}

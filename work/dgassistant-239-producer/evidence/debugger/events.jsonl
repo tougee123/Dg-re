@@ -1,0 +1,1 @@
+{"utc": "2026-10-16T12:55:28.806471+00:00", "event": "connect-result", "success": false, "error": "Connection shut down by remote side while waiting for reply to initial handshake packet", "state": "unloaded", "pid": 0}

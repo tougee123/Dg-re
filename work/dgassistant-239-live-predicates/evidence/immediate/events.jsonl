@@ -1,0 +1,6 @@
+{"utc": "2026-10-16T12:07:12.858102+00:00", "event": "spawned", "pid": 59859}
+{"utc": "2026-10-16T12:07:12.945384+00:00", "event": "attached", "pid": 59859, "mode": "immediate", "deliberate_post_resume_delay_ms": 0}
+{"utc": "2026-10-16T12:07:13.324788+00:00", "event": "error", "type": "TransportError", "message": "the connection is closed"}
+{"utc": "2026-10-16T12:07:13.325073+00:00", "event": "intentional-detach"}
+{"utc": "2026-10-16T12:07:13.833426+00:00", "event": "detached", "reason": "application-requested", "crash_present": false}
+{"utc": "2026-10-16T12:07:20.661573+00:00", "event": "owned-transport-stopped"}

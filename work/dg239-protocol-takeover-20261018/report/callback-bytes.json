@@ -1,0 +1,98 @@
+{
+  "sample_sha256": "3841f080d158a9a9f942eb0ca7f38ec8ba7e1677c23c1b92054fb82452e5cf78",
+  "windows": [
+    {
+      "va": "0x1003a9cd0",
+      "bytes": "6b0140f98e0140f96d012e8a6c012eaaec032caa8c7d0d9b6d010e8a6b010eaa6b7d0d9b6b010c8b4b0100f94a0140f94a0100f1ea179f1a",
+      "instructions": [
+        "0x1003a9cd0: ldr x11, [x11]",
+        "0x1003a9cd4: ldr x14, [x12]",
+        "0x1003a9cd8: bic x13, x11, x14",
+        "0x1003a9cdc: orn x12, x11, x14",
+        "0x1003a9ce0: mvn x12, x12",
+        "0x1003a9ce4: mul x12, x12, x13",
+        "0x1003a9ce8: and x13, x11, x14",
+        "0x1003a9cec: orr x11, x11, x14",
+        "0x1003a9cf0: mul x11, x11, x13",
+        "0x1003a9cf4: add x11, x11, x12",
+        "0x1003a9cf8: str x11, [x10]",
+        "0x1003a9cfc: ldr x10, [x10]",
+        "0x1003a9d00: subs x10, x10, #0",
+        "0x1003a9d04: cset w10, eq"
+      ]
+    },
+    {
+      "va": "0x1003a9550",
+      "bytes": "6b5640f96a1a40f9694a40f9685240f9080140f96c0140f908010c8b08014039290140f94a0140f96c0140f90b0080d26a010aeb6b010ceb4a010b8b29010aeb28010039",
+      "instructions": [
+        "0x1003a9550: ldr x11, [x19, #0xa8]",
+        "0x1003a9554: ldr x10, [x19, #0x30]",
+        "0x1003a9558: ldr x9, [x19, #0x90]",
+        "0x1003a955c: ldr x8, [x19, #0xa0]",
+        "0x1003a9560: ldr x8, [x8]",
+        "0x1003a9564: ldr x12, [x11]",
+        "0x1003a9568: add x8, x8, x12",
+        "0x1003a956c: ldrb w8, [x8]",
+        "0x1003a9570: ldr x9, [x9]",
+        "0x1003a9574: ldr x10, [x10]",
+        "0x1003a9578: ldr x12, [x11]",
+        "0x1003a957c: mov x11, #0",
+        "0x1003a9580: subs x10, x11, x10",
+        "0x1003a9584: subs x11, x11, x12",
+        "0x1003a9588: add x10, x10, x11",
+        "0x1003a958c: subs x9, x9, x10",
+        "0x1003a9590: strb w8, [x9]"
+      ]
+    },
+    {
+      "va": "0x1003a9e48",
+      "bytes": "686640f96a3a40f9691a40f96b3240f92b0100f9290140f94a0140f922010a8b000140f9c84000b0019543f9483f00f0085d41f900013fd6",
+      "instructions": [
+        "0x1003a9e48: ldr x8, [x19, #0xc8]",
+        "0x1003a9e4c: ldr x10, [x19, #0x70]",
+        "0x1003a9e50: ldr x9, [x19, #0x30]",
+        "0x1003a9e54: ldr x11, [x19, #0x60]",
+        "0x1003a9e58: str x11, [x9]",
+        "0x1003a9e5c: ldr x9, [x9]",
+        "0x1003a9e60: ldr x10, [x10]",
+        "0x1003a9e64: add x2, x9, x10",
+        "0x1003a9e68: ldr x0, [x8]",
+        "0x1003a9e6c: adrp x8, #0x100bc2000",
+        "0x1003a9e70: ldr x1, [x8, #0x728]",
+        "0x1003a9e74: adrp x8, #0x100b94000",
+        "0x1003a9e78: ldr x8, [x8, #0x2b8]",
+        "0x1003a9e7c: blr x8"
+      ]
+    }
+  ],
+  "selectors": {
+    "0x100bc2728": "setLength:",
+    "0x100bc1550": "length",
+    "0x100bc1568": "mutableBytes"
+  },
+  "count_identity": {
+    "A": "a & ~b",
+    "B": "~a & b",
+    "C": "a & b",
+    "disjoint": "A,B,C pairwise bit-disjoint",
+    "equalities": [
+      "a=A+C",
+      "b=B+C",
+      "a|b=A+B+C",
+      "A*B+(A+B+C)*C=(A+C)*(B+C)"
+    ],
+    "width": "all arithmetic modulo 2^64"
+  },
+  "local_effects": [
+    "setLength(oldLength+count), not appendBytes",
+    "byte loop writes dest[oldLength+i]=source[i]",
+    "call-free copy window has no implicit source copy"
+  ],
+  "open": [
+    "full CFF reachability and zero/failure branches",
+    "overflow checks and allocation-failure behavior",
+    "source/destination aliasing across setLength mutation",
+    "actual request-handle/callback/context identity",
+    "received bytes to parser input conversion"
+  ]
+}

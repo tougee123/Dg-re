@@ -1,0 +1,12 @@
+{"host_utc": "2026-10-16T11:00:00.530437+00:00", "event": "spawn-begin", "identifier": "apple.allIDTDG"}
+{"host_utc": "2026-10-16T11:00:00.937892+00:00", "event": "spawn-returned-paused", "pid": 59285}
+{"host_utc": "2026-10-16T11:00:00.938000+00:00", "event": "bare-attach-begin", "pid": 59285, "app_paused": true}
+{"host_utc": "2026-10-16T11:00:01.468507+00:00", "event": "bare-attached"}
+{"host_utc": "2026-10-16T11:00:04.644626+00:00", "event": "metadata-script-load-begin"}
+{"host_utc": "2026-10-16T11:00:04.688534+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "metadata-identity", "device_ms": 1792148405274, "tid": 3331, "base": "0x104d58000", "size": 12140544, "anchors_verified": 16, "states": {"14c2c0c": 2, "14c2c14": 257, "14c2c18": 257, "14c2c48": 2}}}}
+{"host_utc": "2026-10-16T11:00:07.707814+00:00", "event": "entry-observers-install-begin"}
+{"host_utc": "2026-10-16T11:00:07.892892+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "entry-observers-ready", "device_ms": 1792148408480, "tid": 3331, "count": 16, "states": {"14c2c0c": 2, "14c2c14": 257, "14c2c18": 257, "14c2c48": 2}}}}
+{"host_utc": "2026-10-16T11:00:07.899137+00:00", "event": "resumed-original-startup", "pid": 59285}
+{"host_utc": "2026-10-16T11:00:07.899223+00:00", "event": "observing-original-unactivated-path", "secrets_recorded": false, "valid_code_available": false}
+{"host_utc": "2026-10-16T11:00:08.805264+00:00", "event": "detached", "reason": "process-terminated", "crash_present": false}
+{"host_utc": "2026-10-16T11:00:08.805386+00:00", "event": "observation-ended"}

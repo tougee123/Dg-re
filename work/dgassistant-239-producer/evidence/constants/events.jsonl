@@ -1,0 +1,3 @@
+{"utc": "2026-10-16T12:31:37.657707+00:00", "event": "attached", "pid": 59980}
+{"utc": "2026-10-16T12:31:37.909453+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "selected-constant-names", "device_ms": 1792153898785, "scanned": 270, "matches": [{"offset": 12299320, "name": "tz0111endtime"}], "hooks": 0, "target_method_calls": 0}}}
+{"utc": "2026-10-16T12:31:37.957692+00:00", "event": "detach-wait", "completed": true}

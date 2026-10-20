@@ -1,0 +1,33 @@
+{
+  "status": "local_review_accepted_addenda_published",
+  "scope": "Original-byte local slices and explicit synthetic preconditions only",
+  "tests_passed": 38,
+  "tests_skipped": 0,
+  "evidence_windows": {
+    "receive": 9,
+    "response_bridge": 14,
+    "parser_slot_call_arguments": 2
+  },
+  "endpoint_attributed_live_responses_added": 0,
+  "full_response_decoders_closed": 0,
+  "full_protocol_accepted": false,
+  "compatible_client_ready": false,
+  "baidu_omission_proven": false,
+  "data3_empty_return_proven": false,
+  "next_work": "For logind0, trace the current frame+0x1160 slot writer and receiving handle/context through a single transaction to parser input and decode result. Do not infer identity from a shared slot or stitch different call epochs.",
+  "open": [
+    "logind0 registration, wrapper substitution/restoration and parser-input causal identity",
+    "logind1 current parser-slot producer and endpoint-attributed final response",
+    "recharged endpoint-specific path into shared parser, final response and persistence",
+    "data3 active 40-character copy receiver and distinct empty/nil cases",
+    "Baidu completion normal/error/cancel parameter and state dependencies",
+    "Complete acceptance/rejection, cache readback and same-attempt UI continuation"
+  ],
+  "restrictions": [
+    "Existing local evidence only",
+    "No phone, network, target execution, redemption or authorization changes",
+    "No external successful-return stubs or IDB changes",
+    "Historical evidence and initial failed tests retained"
+  ],
+  "publication_checks": "publication/release-checks.json"
+}

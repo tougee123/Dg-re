@@ -1,0 +1,12 @@
+test_backwards_address_wrap (test_bind_provenance.BindTests.test_backwards_address_wrap) ... ok
+test_independent_lief_comparison (test_bind_provenance.BindTests.test_independent_lief_comparison) ... ok
+test_missing_bind_is_detected (test_bind_provenance.BindTests.test_missing_bind_is_detected) ... ok
+test_reject_invalid_streams (test_bind_provenance.BindTests.test_reject_invalid_streams) ... ok
+test_repeat_and_skips (test_bind_provenance.BindTests.test_repeat_and_skips) ... ok
+test_signed_addend (test_bind_provenance.BindTests.test_signed_addend) ... ok
+test_symbol_mutation_is_detected (test_bind_provenance.BindTests.test_symbol_mutation_is_detected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.311s
+
+OK

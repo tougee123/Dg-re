@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-10-19T05:01:23.117963-07:00",
+  "scope": "verified local evidence addendum only; not full protocol acceptance",
+  "reports": [
+    {
+      "path": "MASTER_REPORT.md",
+      "before_sha256": "3381a3d169088ce3ce50422dcdcf33b21f097c40efdf737e51e10c0ce738a8c2",
+      "after_sha256": "f82a9ccda3eec66cd85176626751c354a3cb85458b4198a0fd692f93e2cf8e23",
+      "before_bytes": 54049,
+      "after_bytes": 55943,
+      "backup": "publication/1-MASTER_REPORT.md.before",
+      "diff": "publication/1-MASTER_REPORT.md.diff",
+      "historical_prefix_preserved": true
+    },
+    {
+      "path": "work/dgassistant-239-response/AUTH_STARTUP_CONTRACT.md",
+      "before_sha256": "4a0d631df286fe8a64cd62e01a4ab948486cc0a25b50b711ca37af45d2b66933",
+      "after_sha256": "6b0a18d0c522946f7e044a1e5966cc2efb8dfb52f40217112355fcd4fce440b7",
+      "before_bytes": 158620,
+      "after_bytes": 160514,
+      "backup": "publication/2-AUTH_STARTUP_CONTRACT.md.before",
+      "diff": "publication/2-AUTH_STARTUP_CONTRACT.md.diff",
+      "historical_prefix_preserved": true
+    },
+    {
+      "path": "work/dg-lifetime-review-20261018/LEGACY_INTERFACE_CONTRACT_DRAFT.md",
+      "before_sha256": "b968193d0ed49f0e9c1c04ecf54e4a8c47055681c59b872f031ad9c09a1e39bf",
+      "after_sha256": "188c1ebd296480901b55f4cb6917d901a60728906c431a0dfd56c4cf2fdd7b3f",
+      "before_bytes": 262375,
+      "after_bytes": 264269,
+      "backup": "publication/3-LEGACY_INTERFACE_CONTRACT_DRAFT.md.before",
+      "diff": "publication/3-LEGACY_INTERFACE_CONTRACT_DRAFT.md.diff",
+      "historical_prefix_preserved": true
+    }
+  ],
+  "historical_manifest_entries_verified": 38,
+  "historical_manifest_sha256": "d0d8b853f7723795c393cfe1590e373b773684107fadb9716e536585f6f05e41",
+  "full_protocol_accepted": false
+}

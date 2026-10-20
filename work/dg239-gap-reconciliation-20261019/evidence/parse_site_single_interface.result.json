@@ -1,0 +1,53 @@
+{
+  "sample_sha": "3841f080d158a9a9f942eb0ca7f38ec8ba7e1677c23c1b92054fb82452e5cf78",
+  "parse_sites": {
+    "logind0": {
+      "parse_blr": "0x1008496ac",
+      "func": [
+        "0x10080b9cc",
+        "0x10085856c"
+      ],
+      "func_size": 314272,
+      "parse_sites_in_func": [
+        "0x1008496ac"
+      ],
+      "sole_parse_in_func": true,
+      "func_is_baidu_completion": false
+    },
+    "logind1": {
+      "parse_blr": "0x1005d08a8",
+      "func": [
+        "0x1005bbe48",
+        "0x10060d058"
+      ],
+      "func_size": 332304,
+      "parse_sites_in_func": [
+        "0x1005d08a8",
+        "0x1005da5a8",
+        "0x1005cefbc"
+      ],
+      "sole_parse_in_func": false,
+      "func_is_baidu_completion": true
+    },
+    "recharged": {
+      "parse_blr": "0x10037c868",
+      "func": [
+        "0x10037c73c",
+        "0x10037ce2c"
+      ],
+      "func_size": 1776,
+      "parse_sites_in_func": [
+        "0x10037c868"
+      ],
+      "sole_parse_in_func": true,
+      "func_is_baidu_completion": false
+    }
+  },
+  "verdict": {
+    "recharged_attribution": "solid(own function 0x10037c73c,sole parse)",
+    "logind0_attribution": "solid(function 0x10080b9cc,sole parse)",
+    "logind1_attribution": "site-exact but function NOT single-interface:落在百度 completion 巨函数 0x1005bbe48,内含 3 parse 站点;logind1 站点是否单接口仍需该函数内 CFF 分派分析",
+    "cross_finding": "logind1 响应解析(0x1005d08a8)与百度 /yz dataTask completion(invoke 0x1005bbe48)同函数共处——支持'百度前置与真实授权相关'作为调查线索,不作结论",
+    "scope": "原字节 + LC_FUNCTION_STARTS;站点归属=代码位置精确;单接口可达性(logind1)未证"
+  }
+}

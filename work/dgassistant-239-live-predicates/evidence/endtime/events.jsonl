@@ -1,0 +1,8 @@
+{"utc": "2026-10-16T12:13:34.571887+00:00", "event": "attached", "pid": 59897, "mode": "endtime", "deliberate_post_resume_delay_ms": null}
+{"utc": "2026-10-16T12:13:34.599747+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "entry-observers-ready", "seq": 1, "device_ms": 1792152815470, "tid": 31495, "states": {"14c2c0c": 52, "14c2c14": 222, "14c2c18": 222, "14c2c48": 52}, "anchors_verified": 12, "base": "0x104620000"}}}
+{"utc": "2026-10-16T12:13:34.612176+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "endtime-observers-ready", "seq": 2, "device_ms": 1792152815470, "tid": 31495, "states": {"14c2c0c": 52, "14c2c14": 222, "14c2c18": 222, "14c2c48": 52}, "native_or_ObjC_calls": 0, "post_store_probes": 1}}}
+{"utc": "2026-10-16T12:14:24.620972+00:00", "event": "window-ended", "pid": 59897, "alive": true}
+{"utc": "2026-10-16T12:14:24.622788+00:00", "event": "intentional-detach"}
+{"utc": "2026-10-16T12:14:24.706896+00:00", "event": "detached", "reason": "application-requested", "crash_present": false}
+{"utc": "2026-10-16T12:14:24.707109+00:00", "event": "detach-wait-ended", "completed": true}
+{"utc": "2026-10-16T12:14:27.006090+00:00", "event": "owned-transport-stopped"}

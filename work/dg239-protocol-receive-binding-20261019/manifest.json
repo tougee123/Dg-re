@@ -1,0 +1,141 @@
+{
+  "created_at": "2026-10-19T05:03:44.116350-07:00",
+  "scope": "Local evidence integrity only; not complete protocol or authorization acceptance",
+  "excludes": [
+    "manifest.json",
+    "__pycache__/**",
+    "*.pyc"
+  ],
+  "files": [
+    {
+      "path": "STATUS.json",
+      "bytes": 1608,
+      "sha256": "ebb32ab6c23f7f97617984dd01f13c0f9137645be040dcd67667464756de9623"
+    },
+    {
+      "path": "evidence/parser_slot_writers.py",
+      "bytes": 1465,
+      "sha256": "2566d5bfda0a3bf4c8f764ee86de89e920b1c27537bec2156451e938c2eed6af"
+    },
+    {
+      "path": "evidence/receive_slices.py",
+      "bytes": 9107,
+      "sha256": "594b5e2061f24eedec8306cae48e9b9cb690b92580b081d1ca82061347e3168f"
+    },
+    {
+      "path": "evidence/response_bridge.py",
+      "bytes": 3741,
+      "sha256": "77e8490a9ae8bb844bc3dc4a4e70d96ad9a59ffb8cd8beea67d84959643fc125"
+    },
+    {
+      "path": "evidence/test_parser_slot_writers.py",
+      "bytes": 2119,
+      "sha256": "e3af0168fd7fd8035d72984f4cb19dcc3b0303a508bb93f96d1158e6e4e6e075"
+    },
+    {
+      "path": "evidence/test_receive_slices.py",
+      "bytes": 10076,
+      "sha256": "3a4f1b4335fe128998bb042140169fc93f9f105670b10226f5d5d63587976051"
+    },
+    {
+      "path": "evidence/test_response_bridge.py",
+      "bytes": 8775,
+      "sha256": "d58351a3ce7d0df2a658c8f48b7e649b9a27a1d924dc0effcdb3f57bdb6848fe"
+    },
+    {
+      "path": "publication/1-MASTER_REPORT.md.before",
+      "bytes": 54049,
+      "sha256": "3381a3d169088ce3ce50422dcdcf33b21f097c40efdf737e51e10c0ce738a8c2"
+    },
+    {
+      "path": "publication/1-MASTER_REPORT.md.diff",
+      "bytes": 2764,
+      "sha256": "a8060d46c8e230b367c4dff3d8310f2bb940b2a2a2038f0438e5d120bc6b1bf0"
+    },
+    {
+      "path": "publication/2-AUTH_STARTUP_CONTRACT.md.before",
+      "bytes": 158620,
+      "sha256": "4a0d631df286fe8a64cd62e01a4ab948486cc0a25b50b711ca37af45d2b66933"
+    },
+    {
+      "path": "publication/2-AUTH_STARTUP_CONTRACT.md.diff",
+      "bytes": 2840,
+      "sha256": "12b42c8805f5fab52004916b9f548d3ad538ea300da637b3b7ce4a211f04fa0c"
+    },
+    {
+      "path": "publication/3-LEGACY_INTERFACE_CONTRACT_DRAFT.md.before",
+      "bytes": 262375,
+      "sha256": "b968193d0ed49f0e9c1c04ecf54e4a8c47055681c59b872f031ad9c09a1e39bf"
+    },
+    {
+      "path": "publication/3-LEGACY_INTERFACE_CONTRACT_DRAFT.md.diff",
+      "bytes": 2868,
+      "sha256": "00be4311d10715677c516fc3ab06c377a67633ab625f0d7e955253542948c97a"
+    },
+    {
+      "path": "publication/release-checks.json",
+      "bytes": 1793,
+      "sha256": "042a44541eb7644dc06d98eadce465f76ef1749676d943cc1d930d6a771ef38a"
+    },
+    {
+      "path": "report/RECEIVE_REVIEW.md",
+      "bytes": 6992,
+      "sha256": "1ae47dee5b406c5559509ed2d75089fe5ca4e392377c689d5c49e6bc2a852316"
+    },
+    {
+      "path": "report/RESPONSE_BRIDGE_REVIEW.md",
+      "bytes": 6879,
+      "sha256": "8668b9568527cde2d73f9ebd00a9aecdac34993fa835752bd998ae86d9bc6a19"
+    },
+    {
+      "path": "report/bridge-tests-corrected.txt",
+      "bytes": 2885,
+      "sha256": "b7a0ad05319f2e2950e8bcec4291ed9c52f0569ec675013ea2cec027a6964d0d"
+    },
+    {
+      "path": "report/bridge-tests-initial.txt",
+      "bytes": 4517,
+      "sha256": "3a6e6883cf41f8e2201fb16498763167790821fc2822000ece062f026748608e"
+    },
+    {
+      "path": "report/combined-tests-final.txt",
+      "bytes": 4697,
+      "sha256": "85928f96b1d36f0b3b682491343d295676e9c5cd21a72c27c160cbf42b846b70"
+    },
+    {
+      "path": "report/independent-tests.txt",
+      "bytes": 5127,
+      "sha256": "926c1748c713a406c0cf3c7060b800a1b3a9bc4bbb870644bf8d97c226e8c24d"
+    },
+    {
+      "path": "report/parser-slot-writers.json",
+      "bytes": 1360,
+      "sha256": "a04571e0552e9328a37e6814bd000156a81633643b1151a3f2f4579ff48d5eff"
+    },
+    {
+      "path": "report/receive-bytes.json",
+      "bytes": 8149,
+      "sha256": "d63dd4f32651f827f398ca85be09547eda6c946186dd0d4eb1a259ea012a40d4"
+    },
+    {
+      "path": "report/response-bridge.json",
+      "bytes": 8038,
+      "sha256": "dc9b2799ca4050b879f0e8a2e58b0a1610efd2e7a1d36480ad9195dbe9577205"
+    },
+    {
+      "path": "report/tests-final.txt",
+      "bytes": 2256,
+      "sha256": "b1f761a25c6fab5005142afceb7fb04b9dd134c23b99c0dc9a14fc9a5a1ca4ca"
+    },
+    {
+      "path": "report/tests.txt",
+      "bytes": 2662,
+      "sha256": "c2604ede856223337ab44ced821a34b95f5e1477ad6f91b9698989067c21af3b"
+    },
+    {
+      "path": "scope.md",
+      "bytes": 824,
+      "sha256": "008ff2eab50011cfdd84b170e3daddea5e744d31806ee2fcc964686394e5e426"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "sample_sha": "3841f080d158a9a9f942eb0ca7f38ec8ba7e1677c23c1b92054fb82452e5cf78",
+  "caller_attribution": {
+    "logind0": {
+      "parse_blr": "0x1008496ac",
+      "return_caller": "0x1008496b0",
+      "is_blr_x8": true
+    },
+    "recharged": {
+      "parse_blr": "0x10037c868",
+      "return_caller": "0x10037c86c",
+      "is_blr_x8": true
+    },
+    "logind1": {
+      "parse_blr": "0x1005d08a8",
+      "return_caller": "0x1005d08ac",
+      "is_blr_x8": true
+    }
+  },
+  "per_interface": {
+    "logind1": {
+      "request_construction": {
+        "evidence": {
+          "gz": "(fixture header+body;见 PROTOCOL_REVIEW §3.1/interface-matrix)",
+          "sha": "(见 interface-matrix.json)"
+        },
+        "gap_type": "已有记录(构造);通用封装/动态字段类型未证"
+      },
+      "actual_send": {
+        "evidence": "fixture 请求头(logind0 174B/recharged 527B);socket 缓冲无正文",
+        "gap_type": "记录截断/未证发送成功(send_result_verified=false)"
+      },
+      "final_response": {
+        "real_parse_observations": [
+          {
+            "src_sha12": "e37fd6023336",
+            "line": 755,
+            "call": 206,
+            "tid": 34563,
+            "desc_bytes": 3708,
+            "desc_sha12": "6900954b98c9",
+            "options": "0x1",
+            "error_out": "0x0",
+            "ledger_endpoint": null,
+            "wire_response_proven": false
+          },
+          {
+            "src_sha12": "ed90e4185f2c",
+            "line": 802,
+            "call": 207,
+            "tid": 18691,
+            "desc_bytes": 3692,
+            "desc_sha12": "8f18c37e59f4",
+            "options": "0x1",
+            "error_out": "0x0",
+            "ledger_endpoint": null,
+            "wire_response_proven": false
+          }
+        ],
+        "count": 2,
+        "offline_advance": "按 caller 静态归属到本接口(ledger 曾 endpoint=None)",
+        "gap_type": "已有记录但缺事务/对象关联 + 描述非原字节(wire_response_proven=false;parser-stages.limits:无 receive-buffer→parser 桥、描述≠wire 标量、指针无代次证明)"
+      },
+      "decode_in_out": {
+        "evidence": "parse 输入/结果指针与 options=1/err=0 已记录",
+        "gap_type": "已有记录但缺关联(输入为 description 级;解码链>parse 未绑定)"
+      },
+      "verification_sign_udid_endtime": {
+        "evidence": "ACPDS/intValue/时间比较局部采集(PROTOCOL_REVIEW §6)",
+        "gap_type": "已有记录但缺同事务绑定"
+      },
+      "persistence_cache": {
+        "evidence": "endtime→tz0111ct setter、ct getter→ACPDS、24B014 事件存在",
+        "gap_type": "已有记录但缺磁盘域/写后读回/同事务绑定"
+      },
+      "startup_readback": {
+        "evidence": "清剪贴板关 DG 后正常启动进主界面(用户确认)+ 24B014 事件",
+        "gap_type": "已有运行观测;逐校验谓词到入口的同状态可达未证"
+      }
+    },
+    "logind0": {
+      "request_construction": {
+        "evidence": {
+          "gz": "work/dgassistant-239-startup/evidence/activation-second-json-exploration.json.gz",
+          "sha": "5908d5aff538cc864be31906f3d6837581db1294c2d719e017790d5ffb61a5b5",
+          "events": "/events/19374/args/1..19384",
+          "body_len": 2456,
+          "body_sha": "fcf2cbae9e512dde841b7df9fdfdb0641a6938e4fdb5cb4464716425bb64740c"
+        },
+        "gap_type": "已有记录(构造);通用封装/动态字段类型未证"
+      },
+      "actual_send": {
+        "evidence": "fixture 请求头(logind0 174B/recharged 527B);socket 缓冲无正文",
+        "gap_type": "记录截断/未证发送成功(send_result_verified=false)"
+      },
+      "final_response": {
+        "real_parse_observations": [
+          {
+            "src_sha12": "e37fd6023336",
+            "line": 125,
+            "call": 35,
+            "tid": 19971,
+            "desc_bytes": 4560,
+            "desc_sha12": "be3c7fe7934b",
+            "options": "0x1",
+            "error_out": "0x0",
+            "ledger_endpoint": null,
+            "wire_response_proven": false
+          },
+          {
+            "src_sha12": "ed90e4185f2c",
+            "line": 181,
+            "call": 48,
+            "tid": 7427,
+            "desc_bytes": 4560,
+            "desc_sha12": "949c2cf3f4d6",
+            "options": "0x1",
+            "error_out": "0x0",
+            "ledger_endpoint": null,
+            "wire_response_proven": false
+          }
+        ],
+        "count": 2,
+        "offline_advance": "按 caller 静态归属到本接口(ledger 曾 endpoint=None)",
+        "gap_type": "已有记录但缺事务/对象关联 + 描述非原字节(wire_response_proven=false;parser-stages.limits:无 receive-buffer→parser 桥、描述≠wire 标量、指针无代次证明)"
+      },
+      "decode_in_out": {
+        "evidence": "parse 输入/结果指针与 options=1/err=0 已记录",
+        "gap_type": "已有记录但缺关联(输入为 description 级;解码链>parse 未绑定)"
+      },
+      "verification_sign_udid_endtime": {
+        "evidence": "ACPDS/intValue/时间比较局部采集(PROTOCOL_REVIEW §6)",
+        "gap_type": "已有记录但缺同事务绑定"
+      },
+      "persistence_cache": {
+        "evidence": "endtime→tz0111ct setter、ct getter→ACPDS、24B014 事件存在",
+        "gap_type": "已有记录但缺磁盘域/写后读回/同事务绑定"
+      },
+      "startup_readback": {
+        "evidence": "清剪贴板关 DG 后正常启动进主界面(用户确认)+ 24B014 事件",
+        "gap_type": "已有运行观测;逐校验谓词到入口的同状态可达未证"
+      }
+    },
+    "recharged": {
+      "request_construction": {
+        "evidence": {
+          "gz": "work/dgassistant-239-startup/evidence/activation-clipboard-final-exploration.json.gz",
+          "sha": "946560b2c77ae7dd7793384e6af1a4459dd6c50de298758d0690e2f2a2c33cbd",
+          "events": "/events/672,734,1947",
+          "body_len": 374
+        },
+        "gap_type": "已有记录(构造);通用封装/动态字段类型未证"
+      },
+      "actual_send": {
+        "evidence": "fixture 请求头(logind0 174B/recharged 527B);socket 缓冲无正文",
+        "gap_type": "记录截断/未证发送成功(send_result_verified=false)"
+      },
+      "final_response": {
+        "real_parse_observations": [
+          {
+            "src_sha12": "e37fd6023336",
+            "line": 128,
+            "call": 36,
+            "tid": 19971,
+            "desc_bytes": 1675,
+            "desc_sha12": "d523b09c4437",
+            "options": "0x1",
+            "error_out": "0x0",
+            "ledger_endpoint": null,
+            "wire_response_proven": false
+          },
+          {
+            "src_sha12": "e37fd6023336",
+            "line": 785,
+            "call": 216,
+            "tid": 34563,
+            "desc_bytes": 1675,
+            "desc_sha12": "a5497591775d",
+            "options": "0x1",
+            "error_out": "0x0",
+            "ledger_endpoint": null,
+            "wire_response_proven": false
+          },
+          {
+            "src_sha12": "ed90e4185f2c",
+            "line": 184,
+            "call": 49,
+            "tid": 7427,
+            "desc_bytes": 1675,
+            "desc_sha12": "ab10ac3dfc9b",
+            "options": "0x1",
+            "error_out": "0x0",
+            "ledger_endpoint": null,
+            "wire_response_proven": false
+          },
+          {
+            "src_sha12": "ed90e4185f2c",
+            "line": 1035,
+            "call": 272,
+            "tid": 18691,
+            "desc_bytes": 1675,
+            "desc_sha12": "7bfb89876f41",
+            "options": "0x1",
+            "error_out": "0x0",
+            "ledger_endpoint": null,
+            "wire_response_proven": false
+          }
+        ],
+        "count": 4,
+        "offline_advance": "按 caller 静态归属到本接口(ledger 曾 endpoint=None)",
+        "gap_type": "已有记录但缺事务/对象关联 + 描述非原字节(wire_response_proven=false;parser-stages.limits:无 receive-buffer→parser 桥、描述≠wire 标量、指针无代次证明)"
+      },
+      "decode_in_out": {
+        "evidence": "parse 输入/结果指针与 options=1/err=0 已记录",
+        "gap_type": "已有记录但缺关联(输入为 description 级;解码链>parse 未绑定)"
+      },
+      "verification_sign_udid_endtime": {
+        "evidence": "ACPDS/intValue/时间比较局部采集(PROTOCOL_REVIEW §6)",
+        "gap_type": "已有记录但缺同事务绑定"
+      },
+      "persistence_cache": {
+        "evidence": "endtime→tz0111ct setter、ct getter→ACPDS、24B014 事件存在",
+        "gap_type": "已有记录但缺磁盘域/写后读回/同事务绑定"
+      },
+      "startup_readback": {
+        "evidence": "清剪贴板关 DG 后正常启动进主界面(用户确认)+ 24B014 事件",
+        "gap_type": "已有运行观测;逐校验谓词到入口的同状态可达未证"
+      }
+    }
+  },
+  "negative_tests": {
+    "three_callers_distinct": true,
+    "all_parse_sites_are_blr_x8": true
+  },
+  "verdict": {
+    "attribution_method": "caller(parse 站点返回地址)静态归属;比时序/线程强,但仍需确认该 parse 站点为单接口专用(未在本脚本证明站点单接口)",
+    "obs_counts": {
+      "logind1": 2,
+      "logind0": 2,
+      "recharged": 4
+    },
+    "desc_size_sets": {
+      "logind1": [
+        3692,
+        3708
+      ],
+      "logind0": [
+        4560
+      ],
+      "recharged": [
+        1675
+      ]
+    },
+    "core_gap": "三接口 final_response 均为「已有记录但缺事务/对象关联」+「描述非 wire 原字节」;非「未采集」。",
+    "offline_next": [
+      "确认三 parse 站点是否单接口专用(函数内是否仅该接口路径到达)以坐实 caller 归属",
+      "用 desc_sha 跨运行比对与 request body 关联;检索 corpus 是否存在保留了 wire 原字节(而非 description)的采集字段",
+      "receive-buffer→parser 桥(见 dg239-logind0-receive-parser-bridge)"
+    ],
+    "scope": "离线;caller 归属为静态推进;wire 原字节/代次/同事务绑定仍为既有记录的缺关联项,不虚构闭合。"
+  }
+}

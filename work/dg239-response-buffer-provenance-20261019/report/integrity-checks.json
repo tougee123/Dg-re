@@ -1,0 +1,11 @@
+{
+  "rebuilt_json_equal": true,
+  "prior_manifest_sha256": "382afc1d81a812f0a65b6b5165547277e69aa8cd1665cc04740d63ffaf2fecca",
+  "prior_files_checked": 26,
+  "shared_reports_unchanged": {
+    "MASTER_REPORT.md": "f82a9ccda3eec66cd85176626751c354a3cb85458b4198a0fd692f93e2cf8e23",
+    "work/dgassistant-239-response/AUTH_STARTUP_CONTRACT.md": "6b0a18d0c522946f7e044a1e5966cc2efb8dfb52f40217112355fcd4fce440b7",
+    "work/dg-lifetime-review-20261018/LEGACY_INTERFACE_CONTRACT_DRAFT.md": "188c1ebd296480901b55f4cb6917d901a60728906c431a0dfd56c4cf2fdd7b3f"
+  },
+  "complete_protocol_accepted": false
+}

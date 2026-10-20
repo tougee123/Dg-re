@@ -1,0 +1,8 @@
+{"utc": "2026-10-16T11:00:49.260573+00:00", "event": "spawned", "mode": "no-attach", "pid": 59287}
+{"utc": "2026-10-16T11:00:49.275610+00:00", "event": "resumed", "mode": "no-attach", "pid": 59287}
+{"utc": "2026-10-16T11:00:57.624150+00:00", "event": "process-no-longer-enumerated", "mode": "no-attach", "elapsed_seconds": 8.349}
+{"utc": "2026-10-16T11:00:59.186233+00:00", "event": "spawned", "mode": "bare-attach-no-script", "pid": 59291}
+{"utc": "2026-10-16T11:00:59.658704+00:00", "event": "attached-without-script", "mode": "bare-attach-no-script"}
+{"utc": "2026-10-16T11:00:59.667273+00:00", "event": "resumed", "mode": "bare-attach-no-script", "pid": 59291}
+{"utc": "2026-10-16T11:01:00.274508+00:00", "event": "detached", "mode": "bare-attach-no-script", "reason": "process-terminated", "crash_present": false}
+{"utc": "2026-10-16T11:01:00.305528+00:00", "event": "process-no-longer-enumerated", "mode": "bare-attach-no-script", "elapsed_seconds": 0.638}

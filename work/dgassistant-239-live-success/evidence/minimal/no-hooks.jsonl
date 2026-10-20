@@ -1,0 +1,8 @@
+{"utc": "2026-10-16T11:31:32.100087+00:00", "event": "existing-targets", "pids": [59412]}
+{"utc": "2026-10-16T11:31:32.181449+00:00", "event": "bare-attached-no-script", "pid": 59412}
+{"utc": "2026-10-16T11:31:35.393518+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "no-hooks-state", "base": "0x1005fc000", "states": {"14c2c0c": 52, "14c2c14": 222, "14c2c18": 222, "14c2c48": 52}}}}
+{"utc": "2026-10-16T11:31:35.396404+00:00", "event": "state-only-script-loaded"}
+{"utc": "2026-10-16T11:31:45.400748+00:00", "event": "survived-no-hooks-observation"}
+{"utc": "2026-10-16T11:31:45.400844+00:00", "event": "intentional-detach"}
+{"utc": "2026-10-16T11:31:45.897246+00:00", "event": "detached", "reason": "application-requested", "crash_present": false}
+{"utc": "2026-10-16T11:31:53.732012+00:00", "event": "owned-transport-stopped"}

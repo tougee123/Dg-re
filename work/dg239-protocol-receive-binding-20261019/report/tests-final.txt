@@ -1,0 +1,24 @@
+test_artifact_rebuild_when_present (__main__.ReceiveTests.test_artifact_rebuild_when_present) ... ok
+test_byte_store_aliases_index_slot (__main__.ReceiveTests.test_byte_store_aliases_index_slot) ... ok
+test_cleanup_count_copy_before_barrier_not_lifetime_proof (__main__.ReceiveTests.test_cleanup_count_copy_before_barrier_not_lifetime_proof) ... ok
+test_copy_both_blocks_offsets_wrap_and_byte_width (__main__.ReceiveTests.test_copy_both_blocks_offsets_wrap_and_byte_width) ... ok
+test_copy_index_read_epochs_not_conflated (__main__.ReceiveTests.test_copy_index_read_epochs_not_conflated) ... ok
+test_count_alias_counterexample (__main__.ReceiveTests.test_count_alias_counterexample) ... ok
+test_count_arithmetic_boundaries_and_seeded_random (__main__.ReceiveTests.test_count_arithmetic_boundaries_and_seeded_random) ... ok
+test_import_mutation_rejected (__main__.ReceiveTests.test_import_mutation_rejected) ... ok
+test_increment_modulo64 (__main__.ReceiveTests.test_increment_modulo64) ... ok
+test_length_and_mutable_bytes_stop_before_message_send (__main__.ReceiveTests.test_length_and_mutable_bytes_stop_before_message_send) ... ok
+test_missing_memory_unknown_opcode_and_truncated_fail (__main__.ReceiveTests.test_missing_memory_unknown_opcode_and_truncated_fail) ... ok
+test_original_pins_imports_and_selectors (__main__.ReceiveTests.test_original_pins_imports_and_selectors) ... ok
+test_pin_mutation_rejected (__main__.ReceiveTests.test_pin_mutation_rejected) ... ok
+test_pointer_setup_order_with_alias (__main__.ReceiveTests.test_pointer_setup_order_with_alias) ... ok
+test_register_width_and_partial_memory_write (__main__.ReceiveTests.test_register_width_and_partial_memory_write) ... ok
+test_resize_alias_changes_product_epoch (__main__.ReceiveTests.test_resize_alias_changes_product_epoch) ... ok
+test_resize_arguments_stop_before_external_effects (__main__.ReceiveTests.test_resize_arguments_stop_before_external_effects) ... ok
+test_selector_mutation_rejected (__main__.ReceiveTests.test_selector_mutation_rejected) ... ok
+test_unwind_is_barrier_not_length_fallthrough (__main__.ReceiveTests.test_unwind_is_barrier_not_length_fallthrough) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.110s
+
+OK

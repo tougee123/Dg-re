@@ -1,0 +1,4 @@
+{"utc": "2026-10-18T03:53:52.962254+00:00", "event": "normal-launch", "returncode": 0}
+{"utc": "2026-10-18T03:53:57.016627+00:00", "event": "delayed-attach-begin", "pid": 2903}
+{"utc": "2026-10-18T03:53:57.070867+00:00", "event": "error", "kind": "ProcessNotRespondingError", "message": "unexpected early end-of-stream"}
+{"utc": "2026-10-18T03:53:57.072300+00:00", "event": "finished", "local_forward_stopped": true, "remote_service_modified": false, "investigator_authorization_writes": false, "investigator_redemption": false}

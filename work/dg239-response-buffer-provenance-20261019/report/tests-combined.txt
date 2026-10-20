@@ -1,0 +1,18 @@
+test_backwards_address_wrap (test_bind_provenance.BindTests.test_backwards_address_wrap) ... ok
+test_independent_lief_comparison (test_bind_provenance.BindTests.test_independent_lief_comparison) ... ok
+test_missing_bind_is_detected (test_bind_provenance.BindTests.test_missing_bind_is_detected) ... ok
+test_reject_invalid_streams (test_bind_provenance.BindTests.test_reject_invalid_streams) ... ok
+test_repeat_and_skips (test_bind_provenance.BindTests.test_repeat_and_skips) ... ok
+test_signed_addend (test_bind_provenance.BindTests.test_signed_addend) ... ok
+test_symbol_mutation_is_detected (test_bind_provenance.BindTests.test_symbol_mutation_is_detected) ... ok
+test_bytes_reload_is_after_external_ownership_call (test_buffer_arguments.ArgumentTests.test_bytes_reload_is_after_external_ownership_call) ... ok
+test_class_load_is_current_memory_not_zero_file_pointer (test_buffer_arguments.ArgumentTests.test_class_load_is_current_memory_not_zero_file_pointer) ... ok
+test_init_stops_before_wrapper_not_success_substitute (test_buffer_arguments.ArgumentTests.test_init_stops_before_wrapper_not_success_substitute) ... ok
+test_mutated_code_selector_and_import_rejected (test_buffer_arguments.ArgumentTests.test_mutated_code_selector_and_import_rejected) ... ok
+test_original_pins_and_selectors (test_buffer_arguments.ArgumentTests.test_original_pins_and_selectors) ... ok
+test_utf8_data_and_dispatch_read_current_epoch (test_buffer_arguments.ArgumentTests.test_utf8_data_and_dispatch_read_current_epoch) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.351s
+
+OK

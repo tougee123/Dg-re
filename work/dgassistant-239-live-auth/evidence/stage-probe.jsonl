@@ -1,0 +1,6 @@
+{"utc": "2026-10-16T10:56:36.062217+00:00", "event": "before-launch", "pids": []}
+{"utc": "2026-10-16T10:56:38.051527+00:00", "event": "server-only-normal-launch", "exit_code": 0, "stdout": "", "stderr": ""}
+{"utc": "2026-10-16T10:56:38.175446+00:00", "event": "server-only-snapshot", "pids": [], "wait_seconds": 0}
+{"utc": "2026-10-16T10:56:40.237245+00:00", "event": "server-only-snapshot", "pids": [], "wait_seconds": 2}
+{"utc": "2026-10-16T10:56:45.531987+00:00", "event": "server-only-snapshot", "pids": [], "wait_seconds": 5}
+{"utc": "2026-10-16T10:56:45.557811+00:00", "event": "no-unique-live-target", "pids": []}

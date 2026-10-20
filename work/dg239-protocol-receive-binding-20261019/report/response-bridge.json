@@ -1,0 +1,235 @@
+{
+  "sample_sha256": "3841f080d158a9a9f942eb0ca7f38ec8ba7e1677c23c1b92054fb82452e5cf78",
+  "kind": "original-byte local response bridges, not endpoint closure",
+  "windows": [
+    {
+      "va": "0x1003a99ec",
+      "bytes": "685e40f9000140f9600e00f9483f00f0086541f900013fd6",
+      "instructions": [
+        "0x1003a99ec: ldr x8, [x19, #0xb8]",
+        "0x1003a99f0: ldr x0, [x8]",
+        "0x1003a99f4: str x0, [x19, #0x18]",
+        "0x1003a99f8: adrp x8, #0x100b94000",
+        "0x1003a99fc: ldr x8, [x8, #0x2c8]",
+        "0x1003a9a00: blr x8"
+      ]
+    },
+    {
+      "va": "0x1003a9a04",
+      "bytes": "6a6640f9690e40f9687640f9490100f9",
+      "instructions": [
+        "0x1003a9a04: ldr x10, [x19, #0xc8]",
+        "0x1003a9a08: ldr x9, [x19, #0x18]",
+        "0x1003a9a0c: ldr x8, [x19, #0xe8]",
+        "0x1003a9a10: str x9, [x10]"
+      ]
+    },
+    {
+      "va": "0x100850bec",
+      "bytes": "6b0140f96b6202f94a0140f96a6602f928dd03b9",
+      "instructions": [
+        "0x100850bec: ldr x11, [x11]",
+        "0x100850bf0: str x11, [x19, #0x4c0]",
+        "0x100850bf4: ldr x10, [x10]",
+        "0x100850bf8: str x10, [x19, #0x4c8]",
+        "0x100850bfc: str w8, [x9, #0x3dc]"
+      ]
+    },
+    {
+      "va": "0x100845fd4",
+      "bytes": "626642f9606242f921e2845206420194",
+      "instructions": [
+        "0x100845fd4: ldr x2, [x19, #0x4c8]",
+        "0x100845fd8: ldr x0, [x19, #0x4c0]",
+        "0x100845fdc: mov w1, #0x2711",
+        "0x100845fe0: bl #0x1008967f8"
+      ]
+    },
+    {
+      "va": "0x1008c7044",
+      "bytes": "00008052e80740f909210091e90700f9080140f9682201f9",
+      "instructions": [
+        "0x1008c7044: mov w0, #0",
+        "0x1008c7048: ldr x8, [sp, #8]",
+        "0x1008c704c: add x9, x8, #8",
+        "0x1008c7050: str x9, [sp, #8]",
+        "0x1008c7054: ldr x8, [x8]",
+        "0x1008c7058: str x8, [x19, #0x240]"
+      ]
+    },
+    {
+      "va": "0x100834be0",
+      "bytes": "680e5cf969b248f960ae48f9200100f9000140f9ff4300d1e9030091a8dbff9008712c91280100f961c58952667c0294ff430091",
+      "instructions": [
+        "0x100834be0: ldr x8, [x19, #0x3818]",
+        "0x100834be4: ldr x9, [x19, #0x1160]",
+        "0x100834be8: ldr x0, [x19, #0x1158]",
+        "0x100834bec: str x0, [x9]",
+        "0x100834bf0: ldr x0, [x8]",
+        "0x100834bf4: sub sp, sp, #0x10",
+        "0x100834bf8: mov x9, sp",
+        "0x100834bfc: adrp x8, #0x1003a8000",
+        "0x100834c00: add x8, x8, #0xb1c",
+        "0x100834c04: str x8, [x9]",
+        "0x100834c08: mov w1, #0x4e2b",
+        "0x100834c0c: bl #0x1008d3da4",
+        "0x100834c10: add sp, sp, #0x10"
+      ]
+    },
+    {
+      "va": "0x1008c7078",
+      "bytes": "e80740f909210091e90700f9080140f9685a01f900008052081000b4e803003268d602b9030a0014",
+      "instructions": [
+        "0x1008c7078: ldr x8, [sp, #8]",
+        "0x1008c707c: add x9, x8, #8",
+        "0x1008c7080: str x9, [sp, #8]",
+        "0x1008c7084: ldr x8, [x8]",
+        "0x1008c7088: str x8, [x19, #0x2b0]",
+        "0x1008c708c: mov w0, #0",
+        "0x1008c7090: cbz x8, #0x1008c7290",
+        "0x1008c7094: mov w8, #1",
+        "0x1008c7098: str w8, [x19, #0x2d4]",
+        "0x1008c709c: b #0x1008c98a8"
+      ]
+    },
+    {
+      "va": "0x1008c19ac",
+      "bytes": "a32241f9e10340b2e00314aae20318aa20033fd6",
+      "instructions": [
+        "0x1008c19ac: ldr x3, [x21, #0x240]",
+        "0x1008c19b0: mov x1, #1",
+        "0x1008c19b4: mov x0, x20",
+        "0x1008c19b8: mov x2, x24",
+        "0x1008c19bc: blr x25"
+      ]
+    },
+    {
+      "va": "0x1008c19d4",
+      "bytes": "a32a41f9e10340b2e00314aae20318aa40033fd6",
+      "instructions": [
+        "0x1008c19d4: ldr x3, [x21, #0x250]",
+        "0x1008c19d8: mov x1, #1",
+        "0x1008c19dc: mov x0, x20",
+        "0x1008c19e0: mov x2, x24",
+        "0x1008c19e4: blr x26"
+      ]
+    },
+    {
+      "va": "0x1008c2534",
+      "bytes": "600240f9085841f9c80600f9880000d008e13291085801f9082041f9c80a00f9132001f9a11200d0214437915afbff97",
+      "instructions": [
+        "0x1008c2534: ldr x0, [x19]",
+        "0x1008c2538: ldr x8, [x0, #0x2b0]",
+        "0x1008c253c: str x8, [x22, #8]",
+        "0x1008c2540: adrp x8, #0x1008d4000",
+        "0x1008c2544: add x8, x8, #0xcb8",
+        "0x1008c2548: str x8, [x0, #0x2b0]",
+        "0x1008c254c: ldr x8, [x0, #0x240]",
+        "0x1008c2550: str x8, [x22, #0x10]",
+        "0x1008c2554: str x19, [x0, #0x240]",
+        "0x1008c2558: adrp x1, #0x100b18000",
+        "0x1008c255c: add x1, x1, #0xdd1",
+        "0x1008c2560: bl #0x1008c12c8"
+      ]
+    },
+    {
+      "va": "0x1008c2120",
+      "bytes": "080140f9090540f9895b01f9090940f9892301f9",
+      "instructions": [
+        "0x1008c2120: ldr x8, [x8]",
+        "0x1008c2124: ldr x9, [x8, #8]",
+        "0x1008c2128: str x9, [x28, #0x2b0]",
+        "0x1008c212c: ldr x9, [x8, #0x10]",
+        "0x1008c2130: str x9, [x28, #0x240]"
+      ]
+    },
+    {
+      "va": "0x10084968c",
+      "bytes": "68f643f960b643f969b248f9ca1b0090410942f9220140f9230080d2040080d200013fd660be07f9",
+      "instructions": [
+        "0x10084968c: ldr x8, [x19, #0x7e8]",
+        "0x100849690: ldr x0, [x19, #0x768]",
+        "0x100849694: ldr x9, [x19, #0x1160]",
+        "0x100849698: adrp x10, #0x100bc1000",
+        "0x10084969c: ldr x1, [x10, #0x410]",
+        "0x1008496a0: ldr x2, [x9]",
+        "0x1008496a4: mov x3, #1",
+        "0x1008496a8: mov x4, #0",
+        "0x1008496ac: blr x8",
+        "0x1008496b0: str x0, [x19, #0xf78]"
+      ]
+    },
+    {
+      "va": "0x1005d0888",
+      "bytes": "680255f960fe54f969b65bf98a2f00b0410942f9220140f9230080d2040080d200013fd6",
+      "instructions": [
+        "0x1005d0888: ldr x8, [x19, #0x2a00]",
+        "0x1005d088c: ldr x0, [x19, #0x29f8]",
+        "0x1005d0890: ldr x9, [x19, #0x3768]",
+        "0x1005d0894: adrp x10, #0x100bc1000",
+        "0x1005d0898: ldr x1, [x10, #0x410]",
+        "0x1005d089c: ldr x2, [x9]",
+        "0x1005d08a0: mov x3, #1",
+        "0x1005d08a4: mov x4, #0",
+        "0x1005d08a8: blr x8"
+      ]
+    },
+    {
+      "va": "0x10037c850",
+      "bytes": "a80354f8a48353f8a30353f8a28352f8a10352f8a08351f800013fd6a08314f8",
+      "instructions": [
+        "0x10037c850: ldur x8, [x29, #-0xc0]",
+        "0x10037c854: ldur x4, [x29, #-0xc8]",
+        "0x10037c858: ldur x3, [x29, #-0xd0]",
+        "0x10037c85c: ldur x2, [x29, #-0xd8]",
+        "0x10037c860: ldur x1, [x29, #-0xe0]",
+        "0x10037c864: ldur x0, [x29, #-0xe8]",
+        "0x10037c868: blr x8",
+        "0x10037c86c: stur x0, [x29, #-0xb8]"
+      ]
+    }
+  ],
+  "json_selector": "JSONObjectWithData:options:error:",
+  "retain_import": {
+    "slot_va": "0x100b942c8",
+    "file_bytes": "0000000000000000",
+    "indirect_index": 637,
+    "indirect_fileoff": 23047708,
+    "indirect_bytes": "ea010000",
+    "symbol_index": 490,
+    "symbol_fileoff": 23041608,
+    "symbol_bytes": "542800000100000d0000000000000000",
+    "string_fileoff": 23060244,
+    "name": "_objc_retain",
+    "live_target_proven": false
+  },
+  "userdata_table_entry": {
+    "va": "0x1008c9bc4",
+    "bytes": "80d4ffff",
+    "target": "0x1008c7044"
+  },
+  "call_barriers": [
+    "0x1003a9a00",
+    "0x100845fe0",
+    "0x1008c19bc",
+    "0x1008c19e4",
+    "0x1008c2560",
+    "0x1008496ac",
+    "0x1005d08a8",
+    "0x10037c868"
+  ],
+  "open_edges": [
+    "Full CFG from registration to each invocation and parser is not proved.",
+    "Handle +0x240/+0x2b0 can be saved, replaced and restored; invocation epoch is required.",
+    "Callback frame+0x18 and receiver-slot address are sampled after an external call.",
+    "Receiver methods and all external-call writes, errors and lifetimes remain unbound.",
+    "Parser input slot has intervening storeStrong call sites; slot identity is not object identity.",
+    "Shared recharged parser trampoline is not an endpoint-specific live response."
+  ],
+  "endpoint_attributed_live_responses_added": 0,
+  "full_decoders_closed": 0,
+  "full_callback_cfg_proven": false,
+  "external_call_effects_proven": false,
+  "baidu_omission_proven": false,
+  "data3_empty_return_proven": false
+}

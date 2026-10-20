@@ -1,0 +1,218 @@
+{
+  "created_at": "2026-10-19T00:23:00.151557-07:00",
+  "scope": "partial offline review; file integrity only, not full protocol or authorization acceptance",
+  "excludes": [
+    "manifest.json",
+    "__pycache__/**",
+    "*.pyc"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1004,
+      "sha256": "0b161e80728cf3f34b5c9af109911199eed2dd61c1682c216a399b71a8d2b800"
+    },
+    {
+      "path": "evidence/binary_evidence.py",
+      "bytes": 4849,
+      "sha256": "97746775b52610d62192d3313cbe4afa77c21e7ca2bdc463a20e685569c646b4"
+    },
+    {
+      "path": "evidence/callback_bytes.py",
+      "bytes": 2662,
+      "sha256": "bd5c95cb956037367adcfe6733415f71dcc4518d5fcf4192e9751817d71079ca"
+    },
+    {
+      "path": "evidence/callback_gate.py",
+      "bytes": 8848,
+      "sha256": "fbb62c4b44b58a0703f339c9b3dabb16fb5fbc37e180c6ff5ad31c05b28d9e60"
+    },
+    {
+      "path": "evidence/corpus_inventory.py",
+      "bytes": 4057,
+      "sha256": "9f5804988b1ff880d90c500d8cdb5c4adb52eafc533ab4737190f7d8385d467f"
+    },
+    {
+      "path": "evidence/data3_branches.py",
+      "bytes": 10584,
+      "sha256": "75c5360c0125c2856c11ce7c8a954a1c04e71b21163de64ca6f226a44866a9a0"
+    },
+    {
+      "path": "evidence/event_ledger.py",
+      "bytes": 12012,
+      "sha256": "bbb98c55ef6d0f486202bcfd4edfbc31ebcebcb92cde217d83dd8c63d8ddd3e5"
+    },
+    {
+      "path": "evidence/interface_matrix.py",
+      "bytes": 15470,
+      "sha256": "80b8a2b70187b45f6335eb55a3cca0b5a0ab2685377fb61b01d82727202b2bca"
+    },
+    {
+      "path": "evidence/parser_stages.py",
+      "bytes": 6030,
+      "sha256": "7c9c16f2c19ad70fc1167114b611420d4dcb8575fd156410f408cf7f44e6356c"
+    },
+    {
+      "path": "evidence/test_callback_gate.py",
+      "bytes": 4523,
+      "sha256": "bc401c239658b1c0e925dc27928b889a1a7cb288d021708607fcac2109dfeb18"
+    },
+    {
+      "path": "evidence/test_corpus_inventory.py",
+      "bytes": 1910,
+      "sha256": "cbdaa965c7370c88da25d6c5663c75994487c34fb72870732b53d11c167dd90b"
+    },
+    {
+      "path": "evidence/test_data3_branches.py",
+      "bytes": 5470,
+      "sha256": "6968f0ce6d42070b1e44b17562099345281550bacfc842e0700042d68c4624cf"
+    },
+    {
+      "path": "evidence/test_event_ledger.py",
+      "bytes": 3524,
+      "sha256": "874fe1f4e3ec4fa81584e4dd3a2f88e2c393c32a420b95b87b1584385d3025bb"
+    },
+    {
+      "path": "evidence/test_interface_matrix.py",
+      "bytes": 9137,
+      "sha256": "7bc8c48da6569c8286b2688f97802c3c5e499647b18ae447f58428716e5eef7e"
+    },
+    {
+      "path": "evidence/test_protocol_evidence.py",
+      "bytes": 3026,
+      "sha256": "91fab8fa6a88648b6716b60c426148ff23f3c2d8b34c3e6d376866532d03ec11"
+    },
+    {
+      "path": "evidence/test_saved_artifacts.py",
+      "bytes": 3582,
+      "sha256": "1cc0657dc2342f0e02b95f305668c2818ea6a6caf1a90f7d2c53e784ab16aa08"
+    },
+    {
+      "path": "notes/FIELD_JOURNAL.md",
+      "bytes": 1479,
+      "sha256": "09d5c8ad44e0534497570855fc9d22a209d2e059b2fac8b32a8fb211ac6d0d66"
+    },
+    {
+      "path": "publication/01-MASTER_REPORT.md.before",
+      "bytes": 48793,
+      "sha256": "7ba277003a6e250240cb23662591cde429d1fb8a8ea9ee783f2abd8aea9faf8b"
+    },
+    {
+      "path": "publication/01-MASTER_REPORT.md.diff",
+      "bytes": 5792,
+      "sha256": "33666bd809aa9c6ca6c375f8dac12ca0ba12fb43fe95eab310122f17a7103f98"
+    },
+    {
+      "path": "publication/02-AUTH_STARTUP_CONTRACT.md.before",
+      "bytes": 152422,
+      "sha256": "471af8ca065f865c15e6e6af818a155c950be3f3f9c15685ef448f9bd0f37b3a"
+    },
+    {
+      "path": "publication/02-AUTH_STARTUP_CONTRACT.md.diff",
+      "bytes": 7234,
+      "sha256": "b0aacf02957795cc73b914759368a319e98d380acbcd549f107920faa192994f"
+    },
+    {
+      "path": "publication/03-LEGACY_INTERFACE_CONTRACT_DRAFT.md.before",
+      "bytes": 257127,
+      "sha256": "72084c123841efdb83f67d0f66662f75531b307b5d7e4fdb752e225428637d7d"
+    },
+    {
+      "path": "publication/03-LEGACY_INTERFACE_CONTRACT_DRAFT.md.diff",
+      "bytes": 6148,
+      "sha256": "f4c2b395b7ef7188246e18e3d90297f1bc2bf65304097c1a72c34d49db2cbc1f"
+    },
+    {
+      "path": "publication/before.json",
+      "bytes": 720,
+      "sha256": "f9c49148b193fd5f787616cb95404e42550c4022496d0d97b84c16720612397f"
+    },
+    {
+      "path": "publication/publication-record.json",
+      "bytes": 1738,
+      "sha256": "47a21f093646ed2bc9863d6a250872e0a703f9ebfed4b8ac970ef01dbbd3dfae"
+    },
+    {
+      "path": "report/PROTOCOL_REVIEW.md",
+      "bytes": 20071,
+      "sha256": "2600aab840a266c146325a4cbc72f990e68883015f8b2795954cb805661ccfb2"
+    },
+    {
+      "path": "report/callback-bytes.json",
+      "bytes": 3461,
+      "sha256": "5b3035cb609064d26e45356e7eef7fbd4d1edca0b6b7e5b0f040b1f76c737db9"
+    },
+    {
+      "path": "report/callback-gate.json",
+      "bytes": 8743,
+      "sha256": "b9f20abad7f90bad1f71f7fb15da54130f14930beb99daa5fe61dba7ba2858da"
+    },
+    {
+      "path": "report/corpus-inventory.json",
+      "bytes": 693147,
+      "sha256": "7b456e471a45c06908549d3a5385c324a5b9a7033a80944a4631afa2a5aef34e"
+    },
+    {
+      "path": "report/data3-branches.json",
+      "bytes": 12904,
+      "sha256": "a8a6ad987dd34b7949165deb1dd88c535e4f1dba1e03589a68fc2ea985d18876"
+    },
+    {
+      "path": "report/event-ledger.json",
+      "bytes": 518529,
+      "sha256": "ee06c73f3162f84bc808787a38369a6c337e1d6f4ec89a8a7a0f4aa1841cf02f"
+    },
+    {
+      "path": "report/interface-matrix.json",
+      "bytes": 42083,
+      "sha256": "33a0114dcfea0c289e47f37047db770c76d3bcb1814b786b771836afec71f5d8"
+    },
+    {
+      "path": "report/ledger-summary.json",
+      "bytes": 165,
+      "sha256": "2ff4878936cc03829621ed959fc492220cd73f4fda09161809eee807a72e6cb6"
+    },
+    {
+      "path": "report/parser-stages.json",
+      "bytes": 41609,
+      "sha256": "57da14da3a729840af5c8e102ad7c5507902f156090fc7f1bdb090bcd351c97d"
+    },
+    {
+      "path": "route/route-scope.md",
+      "bytes": 489,
+      "sha256": "6e2078121ecb1f6c499cfa43cfa04b71009bac3aba41b6be7e383d4cbe430d96"
+    },
+    {
+      "path": "scope.md",
+      "bytes": 1648,
+      "sha256": "d1f9b819ee1d8a47cb5f377fbb0228f2e9c569914f38c055bddfaf8c56e590af"
+    },
+    {
+      "path": "timeline.md",
+      "bytes": 1731,
+      "sha256": "689d55a6cbeaa7244a9a215c44353ec6ff23db8352b5ced03e42c5427ad8f67d"
+    },
+    {
+      "path": "workitems.md",
+      "bytes": 1472,
+      "sha256": "7a924885cfe0d5b948ef87755e14bdabe093651644fa86813e7a3bb5fd752eb2"
+    }
+  ],
+  "published_files": [
+    {
+      "path": "MASTER_REPORT.md",
+      "bytes": 54049,
+      "sha256": "3381a3d169088ce3ce50422dcdcf33b21f097c40efdf737e51e10c0ce738a8c2"
+    },
+    {
+      "path": "work/dgassistant-239-response/AUTH_STARTUP_CONTRACT.md",
+      "bytes": 158620,
+      "sha256": "4a0d631df286fe8a64cd62e01a4ab948486cc0a25b50b711ca37af45d2b66933"
+    },
+    {
+      "path": "work/dg-lifetime-review-20261018/LEGACY_INTERFACE_CONTRACT_DRAFT.md",
+      "bytes": 262375,
+      "sha256": "b968193d0ed49f0e9c1c04ecf54e4a8c47055681c59b872f031ad9c09a1e39bf"
+    }
+  ]
+}

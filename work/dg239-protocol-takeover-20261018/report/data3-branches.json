@@ -1,0 +1,313 @@
+{
+  "sample_sha256": "3841f080d158a9a9f942eb0ca7f38ec8ba7e1677c23c1b92054fb82452e5cf78",
+  "proofs": {
+    "length_gate_mismatch": "unsat",
+    "short_index1_feasible": "unsat",
+    "long_formula_mismatch": "unsat",
+    "long_index0_feasible": "sat",
+    "long_index1_feasible": "sat"
+  },
+  "short_dispatcher_proofs": {
+    "formula_mismatch": "unsat",
+    "index0_feasible": "sat",
+    "index1_feasible": "sat"
+  },
+  "short_dispatcher_assumption": "frame548 == 0xAA4CED83 from 3C002C; no whole-path alias proof",
+  "short_dispatcher_initializer": {
+    "va": "0x1003c0024",
+    "bytes": "68b09d528849b572684a05b908d38f526858a372684e05b9e85e925288e9ad72685205b948219852",
+    "instructions": [
+      "0x1003c0024: mov w8, #0xed83",
+      "0x1003c0028: movk w8, #0xaa4c, lsl #16",
+      "0x1003c002c: str w8, [x19, #0x548]",
+      "0x1003c0030: mov w8, #0x7e98",
+      "0x1003c0034: movk w8, #0x1ac3, lsl #16",
+      "0x1003c0038: str w8, [x19, #0x54c]",
+      "0x1003c003c: mov w8, #0x92f7",
+      "0x1003c0040: movk w8, #0x6f4c, lsl #16",
+      "0x1003c0044: str w8, [x19, #0x550]",
+      "0x1003c0048: mov w8, #0xc10a"
+    ]
+  },
+  "short_dispatcher_index1_target": {
+    "va": "0x1003c3a30",
+    "bytes": "689242f969f68fb908f144f9087969f800011fd6",
+    "instructions": [
+      "0x1003c3a30: ldr x8, [x19, #0x520]",
+      "0x1003c3a34: ldrsw x9, [x19, #0xff4]",
+      "0x1003c3a38: ldr x8, [x8, #0x9e0]",
+      "0x1003c3a3c: ldr x8, [x8, x9, lsl #3]",
+      "0x1003c3a40: br x8"
+    ]
+  },
+  "cleanup_table_base": {
+    "va": "0x1003c011c",
+    "bytes": "a98900d02941019169c602f9ea0309aa6a9906f9",
+    "instructions": [
+      "0x1003c011c: adrp x9, #0x1014f6000",
+      "0x1003c0120: add x9, x9, #0x50",
+      "0x1003c0124: str x9, [x19, #0x588]",
+      "0x1003c0128: mov x10, x9",
+      "0x1003c012c: str x10, [x11, #0xd30]"
+    ]
+  },
+  "cleanup_table_setup": {
+    "va": "0x1003c03cc",
+    "bytes": "f00309aa70f104f95199815271f60fb9",
+    "instructions": [
+      "0x1003c03cc: mov x16, x9",
+      "0x1003c03d0: str x16, [x11, #0x9e0]",
+      "0x1003c03d4: mov w17, #0xcca",
+      "0x1003c03d8: str w17, [x19, #0xff4]"
+    ]
+  },
+  "cleanup_slot": {
+    "va": "0x1014fc6a0",
+    "bytes": "7c5e3c0001000000",
+    "target": "0x1003c5e7c"
+  },
+  "cleanup_window": {
+    "va": "0x1003c5e7c",
+    "bytes": "603e42f9010080d2610a00f9dc681c94604242f9610a40f9d9681c9460fa40f9610a40f9d6681c94606e42f9610a40f9d3681c94607242f9610a40f9d0681c94607642f9610a40f9cd681c9468be41f9000140f9bf4300d1fd7b41a9f44fc2a882681c14",
+    "instructions": [
+      "0x1003c5e7c: ldr x0, [x19, #0x478]",
+      "0x1003c5e80: mov x1, #0",
+      "0x1003c5e84: str x1, [x19, #0x10]",
+      "0x1003c5e88: bl #0x100ae01f8",
+      "0x1003c5e8c: ldr x0, [x19, #0x480]",
+      "0x1003c5e90: ldr x1, [x19, #0x10]",
+      "0x1003c5e94: bl #0x100ae01f8",
+      "0x1003c5e98: ldr x0, [x19, #0x1f0]",
+      "0x1003c5e9c: ldr x1, [x19, #0x10]",
+      "0x1003c5ea0: bl #0x100ae01f8",
+      "0x1003c5ea4: ldr x0, [x19, #0x4d8]",
+      "0x1003c5ea8: ldr x1, [x19, #0x10]",
+      "0x1003c5eac: bl #0x100ae01f8",
+      "0x1003c5eb0: ldr x0, [x19, #0x4e0]",
+      "0x1003c5eb4: ldr x1, [x19, #0x10]",
+      "0x1003c5eb8: bl #0x100ae01f8",
+      "0x1003c5ebc: ldr x0, [x19, #0x4e8]",
+      "0x1003c5ec0: ldr x1, [x19, #0x10]",
+      "0x1003c5ec4: bl #0x100ae01f8",
+      "0x1003c5ec8: ldr x8, [x19, #0x378]",
+      "0x1003c5ecc: ldr x0, [x8]",
+      "0x1003c5ed0: sub sp, x29, #0x10",
+      "0x1003c5ed4: ldp x29, x30, [sp, #0x10]",
+      "0x1003c5ed8: ldp x20, x19, [sp], #0x20",
+      "0x1003c5edc: b #0x100ae00e4"
+    ]
+  },
+  "short_dispatcher_routes": {
+    "index0": "3C1CCC (self dispatcher)",
+    "index1": "3C3A30 -> [1014F6050+CCA*8] -> 3C5E7C; conditional on intact setup"
+  },
+  "windows": [
+    {
+      "va": "0x1003c1ccc",
+      "bytes": "683e42f96c4a45b9898800d029594ab98a8800d04a5d4ab929010a6b8b01290a8a4f82526ab6aa722a010a0a4a7d0b1b2b010c0a29010c2a297d0b1b29010a0b6a5881520a73af7229010a0b2aeb8e52caddad7229010a6b0bdb8152abdea77229010b6b29010a0b0afc9a52ca52ad7229010a6be9379f1a699603b9000140f960c201f9883e00f0086541f900013fd66cbe41f96ac241f96bc641f9699643b9689242f98a0100f92a0080526a0100b9690610b908f944f9690690b9087969f800011fd6",
+      "instructions": [
+        "0x1003c1ccc: ldr x8, [x19, #0x478]",
+        "0x1003c1cd0: ldr w12, [x19, #0x548]",
+        "0x1003c1cd4: adrp x9, #0x1014d3000",
+        "0x1003c1cd8: ldr w9, [x9, #0xa58]",
+        "0x1003c1cdc: adrp x10, #0x1014d3000",
+        "0x1003c1ce0: ldr w10, [x10, #0xa5c]",
+        "0x1003c1ce4: subs w9, w9, w10",
+        "0x1003c1ce8: bic w11, w12, w9",
+        "0x1003c1cec: mov w10, #0x127c",
+        "0x1003c1cf0: movk w10, #0x55b3, lsl #16",
+        "0x1003c1cf4: and w10, w9, w10",
+        "0x1003c1cf8: mul w10, w10, w11",
+        "0x1003c1cfc: and w11, w9, w12",
+        "0x1003c1d00: orr w9, w9, w12",
+        "0x1003c1d04: mul w9, w9, w11",
+        "0x1003c1d08: add w9, w9, w10",
+        "0x1003c1d0c: mov w10, #0xac3",
+        "0x1003c1d10: movk w10, #0x7b98, lsl #16",
+        "0x1003c1d14: add w9, w9, w10",
+        "0x1003c1d18: mov w10, #0x7759",
+        "0x1003c1d1c: movk w10, #0x6eee, lsl #16",
+        "0x1003c1d20: subs w9, w9, w10",
+        "0x1003c1d24: mov w11, #0xed8",
+        "0x1003c1d28: movk w11, #0x3ef5, lsl #16",
+        "0x1003c1d2c: subs w9, w9, w11",
+        "0x1003c1d30: add w9, w9, w10",
+        "0x1003c1d34: mov w10, #0xd7e0",
+        "0x1003c1d38: movk w10, #0x6a96, lsl #16",
+        "0x1003c1d3c: subs w9, w9, w10",
+        "0x1003c1d40: cset w9, hs",
+        "0x1003c1d44: str w9, [x19, #0x394]",
+        "0x1003c1d48: ldr x0, [x8]",
+        "0x1003c1d4c: str x0, [x19, #0x380]",
+        "0x1003c1d50: adrp x8, #0x100b94000",
+        "0x1003c1d54: ldr x8, [x8, #0x2c8]",
+        "0x1003c1d58: blr x8",
+        "0x1003c1d5c: ldr x12, [x19, #0x378]",
+        "0x1003c1d60: ldr x10, [x19, #0x380]",
+        "0x1003c1d64: ldr x11, [x19, #0x388]",
+        "0x1003c1d68: ldr w9, [x19, #0x394]",
+        "0x1003c1d6c: ldr x8, [x19, #0x520]",
+        "0x1003c1d70: str x10, [x12]",
+        "0x1003c1d74: mov w10, #1",
+        "0x1003c1d78: str w10, [x11]",
+        "0x1003c1d7c: str w9, [x19, #0x1004]",
+        "0x1003c1d80: ldr x8, [x8, #0x9f0]",
+        "0x1003c1d84: ldrsw x9, [x19, #0x1004]",
+        "0x1003c1d88: ldr x8, [x8, x9, lsl #3]",
+        "0x1003c1d8c: br x8"
+      ]
+    },
+    {
+      "va": "0x1003c38d8",
+      "bytes": "689242f9698642f9609a40f9200100f9290140f9290500f1e9879f1a692610b9080945f9692690b9087969f800011fd6",
+      "instructions": [
+        "0x1003c38d8: ldr x8, [x19, #0x520]",
+        "0x1003c38dc: ldr x9, [x19, #0x508]",
+        "0x1003c38e0: ldr x0, [x19, #0x130]",
+        "0x1003c38e4: str x0, [x9]",
+        "0x1003c38e8: ldr x9, [x9]",
+        "0x1003c38ec: subs x9, x9, #1",
+        "0x1003c38f0: cset w9, ls",
+        "0x1003c38f4: str w9, [x19, #0x1024]",
+        "0x1003c38f8: ldr x8, [x8, #0xa10]",
+        "0x1003c38fc: ldrsw x9, [x19, #0x1024]",
+        "0x1003c3900: ldr x8, [x8, x9, lsl #3]",
+        "0x1003c3904: br x8"
+      ]
+    },
+    {
+      "va": "0x1003c5de4",
+      "bytes": "689242f9698800d02a514ab9698800d029554ab9e903292a2a012a2a0900801229012a0a4a659c52cad9aa7229010a0b6bd39352ab73bc7229010b6b29010a6bea2595522a99b3722b010a4a6a050011e9249252c9ceaf7229012b2a29010a0baa109052ea55bb7229010a6be9179f1a691610b9080145f9691690b9087969f800011fd6",
+      "instructions": [
+        "0x1003c5de4: ldr x8, [x19, #0x520]",
+        "0x1003c5de8: adrp x9, #0x1014d3000",
+        "0x1003c5dec: ldr w10, [x9, #0xa50]",
+        "0x1003c5df0: adrp x9, #0x1014d3000",
+        "0x1003c5df4: ldr w9, [x9, #0xa54]",
+        "0x1003c5df8: mvn w9, w9",
+        "0x1003c5dfc: orn w10, w9, w10",
+        "0x1003c5e00: mov w9, #-1",
+        "0x1003c5e04: bic w9, w9, w10",
+        "0x1003c5e08: mov w10, #0xe32a",
+        "0x1003c5e0c: movk w10, #0x56ce, lsl #16",
+        "0x1003c5e10: add w9, w9, w10",
+        "0x1003c5e14: mov w11, #0x9e9b",
+        "0x1003c5e18: movk w11, #0xe39d, lsl #16",
+        "0x1003c5e1c: subs w9, w9, w11",
+        "0x1003c5e20: subs w9, w9, w10",
+        "0x1003c5e24: mov w10, #0xa92f",
+        "0x1003c5e28: movk w10, #0x9cc9, lsl #16",
+        "0x1003c5e2c: eor w11, w9, w10",
+        "0x1003c5e30: add w10, w11, #1",
+        "0x1003c5e34: mov w9, #0x9127",
+        "0x1003c5e38: movk w9, #0x7e76, lsl #16",
+        "0x1003c5e3c: orn w9, w9, w11",
+        "0x1003c5e40: add w9, w9, w10",
+        "0x1003c5e44: mov w10, #0x8085",
+        "0x1003c5e48: movk w10, #0xdaaf, lsl #16",
+        "0x1003c5e4c: subs w9, w9, w10",
+        "0x1003c5e50: cset w9, eq",
+        "0x1003c5e54: str w9, [x19, #0x1014]",
+        "0x1003c5e58: ldr x8, [x8, #0xa00]",
+        "0x1003c5e5c: ldrsw x9, [x19, #0x1014]",
+        "0x1003c5e60: ldr x8, [x8, x9, lsl #3]",
+        "0x1003c5e64: br x8"
+      ]
+    },
+    {
+      "va": "0x1003c0f60",
+      "bytes": "689242f96b5245b96d4e45b9898800f029614ab98a8800f04a654ab929010a4a8a1b8d52ca68bd7229010a4a2a010d4aac012a0a4a0080524c7d0c1b8c010d6b29010c6b2c010b4a6c012c0a4a7d0c1b4a010b6b29010a6bea7b8f522ae5a47229010a6be9979f1a69e60fb908e944f969e68fb9087969f800011fd6",
+      "instructions": [
+        "0x1003c0f60: ldr x8, [x19, #0x520]",
+        "0x1003c0f64: ldr w11, [x19, #0x550]",
+        "0x1003c0f68: ldr w13, [x19, #0x54c]",
+        "0x1003c0f6c: adrp x9, #0x1014d3000",
+        "0x1003c0f70: ldr w9, [x9, #0xa60]",
+        "0x1003c0f74: adrp x10, #0x1014d3000",
+        "0x1003c0f78: ldr w10, [x10, #0xa64]",
+        "0x1003c0f7c: eor w9, w9, w10",
+        "0x1003c0f80: mov w10, #0x68dc",
+        "0x1003c0f84: movk w10, #0xeb46, lsl #16",
+        "0x1003c0f88: eor w9, w9, w10",
+        "0x1003c0f8c: eor w10, w9, w13",
+        "0x1003c0f90: bic w12, w13, w10",
+        "0x1003c0f94: mov w10, #2",
+        "0x1003c0f98: mul w12, w10, w12",
+        "0x1003c0f9c: subs w12, w12, w13",
+        "0x1003c0fa0: subs w9, w9, w12",
+        "0x1003c0fa4: eor w12, w9, w11",
+        "0x1003c0fa8: bic w12, w11, w12",
+        "0x1003c0fac: mul w10, w10, w12",
+        "0x1003c0fb0: subs w10, w10, w11",
+        "0x1003c0fb4: subs w9, w9, w10",
+        "0x1003c0fb8: mov w10, #0x7bdf",
+        "0x1003c0fbc: movk w10, #0x2729, lsl #16",
+        "0x1003c0fc0: subs w9, w9, w10",
+        "0x1003c0fc4: cset w9, hi",
+        "0x1003c0fc8: str w9, [x19, #0xfe4]",
+        "0x1003c0fcc: ldr x8, [x8, #0x9d0]",
+        "0x1003c0fd0: ldrsw x9, [x19, #0xfe4]",
+        "0x1003c0fd4: ldr x8, [x8, x9, lsl #3]",
+        "0x1003c0fd8: br x8"
+      ]
+    }
+  ],
+  "table_initializers": {
+    "va": "0x1003c03a8",
+    "bytes": "908c00b010220591700905f9908c00b010620591700105f9908c00b010a2059170f904f9f00309aa70f104f95199815271f60fb9908c00b010e2059170e904f9",
+    "instructions": [
+      "0x1003c03a8: adrp x16, #0x101551000",
+      "0x1003c03ac: add x16, x16, #0x148",
+      "0x1003c03b0: str x16, [x11, #0xa10]",
+      "0x1003c03b4: adrp x16, #0x101551000",
+      "0x1003c03b8: add x16, x16, #0x158",
+      "0x1003c03bc: str x16, [x11, #0xa00]",
+      "0x1003c03c0: adrp x16, #0x101551000",
+      "0x1003c03c4: add x16, x16, #0x168",
+      "0x1003c03c8: str x16, [x11, #0x9f0]",
+      "0x1003c03cc: mov x16, x9",
+      "0x1003c03d0: str x16, [x11, #0x9e0]",
+      "0x1003c03d4: mov w17, #0xcca",
+      "0x1003c03d8: str w17, [x19, #0xff4]",
+      "0x1003c03dc: adrp x16, #0x101551000",
+      "0x1003c03e0: add x16, x16, #0x178",
+      "0x1003c03e4: str x16, [x11, #0x9d0]"
+    ]
+  },
+  "table": {
+    "0x101551148": "0x1003c0f60",
+    "0x101551150": "0x1003c5de4",
+    "0x101551158": "0x1003c1ccc",
+    "0x101551160": "0x1003c2460",
+    "0x101551168": "0x1003c1ccc",
+    "0x101551170": "0x1003c3a30",
+    "0x101551178": "0x1003c1fb4",
+    "0x101551180": "0x1003c13ec"
+  },
+  "length_return": {
+    "va": "0x1003c6830",
+    "bytes": "61be40f960ba40f9f0e41294609a00f926f4ff17",
+    "instructions": [
+      "0x1003c6830: ldr x1, [x19, #0x178]",
+      "0x1003c6834: ldr x0, [x19, #0x170]",
+      "0x1003c6838: bl #0x10087fbf8",
+      "0x1003c683c: str x0, [x19, #0x130]",
+      "0x1003c6840: b #0x1003c38d8"
+    ]
+  },
+  "short_formula": "(0x7E769127 & (((A&B)-0xE39D9E9B)^0x9CC9A92F)) == 0xDAAF8085; uint32",
+  "short_impossible_bits": "0x80890080",
+  "long_formula": "uint32(A^B^0xEB4668DC^frame54C^frame550)>0x27297BDF",
+  "conditional_routes": {
+    "key_length_0_or_1": "3C5DE4 -> 3C1CCC (index 0)",
+    "key_length_gt_1": "3C0F60 -> 3C1FB4 or 3C13EC (residual)"
+  },
+  "limits": [
+    "Assumes listed local table initializers reach dispatch without overwrite",
+    "Length is EB008-derived key object's return, not data3 input length",
+    "Not a whole-function route, return, empty-data3 proof, or live global binding",
+    "Short target 3C1CCC is another dispatcher, not a proven return",
+    "3C1D58 indirect call write set and live B942C8 target are unresolved",
+    "3C3A30 additionally depends on table+9E0 and frameFF4; not an empty-input result"
+  ]
+}

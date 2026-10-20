@@ -1,0 +1,49 @@
+test_artifact_rebuild_when_present (test_response_bridge.BridgeTests.test_artifact_rebuild_when_present) ... skipped 'artifact not yet generated'
+test_callback_option_stops_before_branch (test_response_bridge.BridgeTests.test_callback_option_stops_before_branch) ... ERROR
+test_callback_replacement_is_not_response_object_identity (test_response_bridge.BridgeTests.test_callback_replacement_is_not_response_object_identity) ... ok
+test_cursor_alias_observes_write_before_read (test_response_bridge.BridgeTests.test_cursor_alias_observes_write_before_read) ... ok
+test_json_parser_stops_at_live_dispatch_and_reads_current_epoch (test_response_bridge.BridgeTests.test_json_parser_stops_at_live_dispatch_and_reads_current_epoch) ... ok
+test_option_userdata_write_and_cursor_advance (test_response_bridge.BridgeTests.test_option_userdata_write_and_cursor_advance) ... ok
+test_pins_and_scope (test_response_bridge.BridgeTests.test_pins_and_scope) ... ERROR
+test_postcall_memory_versions_cannot_be_assumed_stable (test_response_bridge.BridgeTests.test_postcall_memory_versions_cannot_be_assumed_stable) ... ok
+test_postcall_uses_saved_memory_not_x0_return (test_response_bridge.BridgeTests.test_postcall_uses_saved_memory_not_x0_return) ... ok
+test_primary_and_secondary_userdata_are_distinct (test_response_bridge.BridgeTests.test_primary_and_secondary_userdata_are_distinct) ... ok
+test_registration_save_can_alias_later_object_read (test_response_bridge.BridgeTests.test_registration_save_can_alias_later_object_read) ... ok
+test_registration_saves_then_passes_current_object (test_response_bridge.BridgeTests.test_registration_saves_then_passes_current_object) ... ok
+test_reject_changed_bytes_import_selector_and_route (test_response_bridge.BridgeTests.test_reject_changed_bytes_import_selector_and_route) ... ok
+test_restore_uses_current_saved_fields_not_registration_constants (test_response_bridge.BridgeTests.test_restore_uses_current_saved_fields_not_registration_constants) ... ok
+test_userdata_saved_before_retain_barrier (test_response_bridge.BridgeTests.test_userdata_saved_before_retain_barrier) ... ok
+
+======================================================================
+ERROR: test_callback_option_stops_before_branch (test_response_bridge.BridgeTests.test_callback_option_stops_before_branch)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/tougee/Downloads/DG 管理器/work/dg239-protocol-receive-binding-20261019/evidence/test_response_bridge.py", line 98, in test_callback_option_stops_before_branch
+    self.execute(0x1008C7078, state)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tougee/Downloads/DG 管理器/work/dg239-protocol-receive-binding-20261019/evidence/test_response_bridge.py", line 17, in execute
+    return run(self.sample, va, bytes.fromhex(PINS[va])[:end], state)
+  File "/Users/tougee/Downloads/DG 管理器/work/dg239-protocol-receive-binding-20261019/evidence/receive_slices.py", line 86, in run
+    value = state.get(address, size)
+  File "/Users/tougee/Downloads/DG 管理器/work/dg239-protocol-receive-binding-20261019/evidence/receive_slices.py", line 42, in get
+    return int.from_bytes(bytes(self.memory[(address + k) & MASK] for k in range(size)), "little")
+                          ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tougee/Downloads/DG 管理器/work/dg239-protocol-receive-binding-20261019/evidence/receive_slices.py", line 42, in <genexpr>
+    return int.from_bytes(bytes(self.memory[(address + k) & MASK] for k in range(size)), "little")
+                                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 8200
+
+======================================================================
+ERROR: test_pins_and_scope (test_response_bridge.BridgeTests.test_pins_and_scope)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/tougee/Downloads/DG 管理器/work/dg239-protocol-receive-binding-20261019/evidence/test_response_bridge.py", line 32, in test_pins_and_scope
+    result = build(self.sample)
+  File "/Users/tougee/Downloads/DG 管理器/work/dg239-protocol-receive-binding-20261019/evidence/response_bridge.py", line 30, in build
+    raise ValueError(f"original bytes changed at {va:#x}")
+ValueError: original bytes changed at 0x10037c850
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.030s
+
+FAILED (errors=2, skipped=1)

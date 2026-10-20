@@ -1,0 +1,18 @@
+{
+  "status": "local_static_evidence_validated_protocol_incomplete",
+  "test_methods_passed": 13,
+  "endpoint_attributed_final_responses_added": 0,
+  "complete_response_decoders_added": 0,
+  "compatible_client_ready": false,
+  "shared_reports_updated": false,
+  "next": "Bind candidate logind0 parser input to response-cell writers, receive context and decoder in one transaction; then separately handle logind1/recharged.",
+  "open": [
+    "Actual constructor return and live dispatch",
+    "Complete response-cell writer order and alias effects",
+    "Endpoint/request/connection identity and final response",
+    "Three endpoint-specific response decoders and validation branches",
+    "data3 active parameter source and empty/nil returns",
+    "Baidu completion dependencies and omission equivalence",
+    "Persistence/revalidation and same-attempt UI continuation"
+  ]
+}

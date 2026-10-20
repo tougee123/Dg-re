@@ -1,0 +1,123 @@
+Export hashes verified: 301
+test_changed_original_bytes_rejected (test_callback_gate.CallbackGateTests.test_changed_original_bytes_rejected) ... ok
+test_cset_condition_mutation_changes_result (test_callback_gate.CallbackGateTests.test_cset_condition_mutation_changes_result) ... ok
+test_dispatch_uses_table_not_assumed_target (test_callback_gate.CallbackGateTests.test_dispatch_uses_table_not_assumed_target) ... ok
+test_import_identity_and_invalid_stub (test_callback_gate.CallbackGateTests.test_import_identity_and_invalid_stub) ... ok
+test_missing_memory_and_external_call_fail_closed (test_callback_gate.CallbackGateTests.test_missing_memory_and_external_call_fail_closed) ... ok
+test_separate_epochs_can_select_opposite_arms (test_callback_gate.CallbackGateTests.test_separate_epochs_can_select_opposite_arms) ... ok
+test_slot_mutation_reads_different_pointee (test_callback_gate.CallbackGateTests.test_slot_mutation_reads_different_pointee) ... ok
+test_wrong_import_symbol_rejected (test_callback_gate.CallbackGateTests.test_wrong_import_symbol_rejected) ... ok
+test_bad_gzip_and_non_json_remain_gaps (test_corpus_inventory.CorpusInventoryTests.test_bad_gzip_and_non_json_remain_gaps) ... ok
+test_endpoint_text_is_only_a_mention_and_not_exported (test_corpus_inventory.CorpusInventoryTests.test_endpoint_text_is_only_a_mention_and_not_exported) ... ok
+test_inventory_includes_nonstandard_filenames_and_hash_changes (test_corpus_inventory.CorpusInventoryTests.test_inventory_includes_nonstandard_filenames_and_hash_changes) ... ok
+test_every_pinned_window_rejects_mutated_bytes (test_data3_branches.Data3BranchTests.test_every_pinned_window_rejects_mutated_bytes) ... ok
+test_following_dispatcher_against_independent_uint32_reference (test_data3_branches.Data3BranchTests.test_following_dispatcher_against_independent_uint32_reference) ... ok
+test_interpreted_predicates_against_concrete_reference (test_data3_branches.Data3BranchTests.test_interpreted_predicates_against_concrete_reference) ... ok
+test_length_gate_is_unsigned_and_not_body_length (test_data3_branches.Data3BranchTests.test_length_gate_is_unsigned_and_not_body_length) ... ok
+test_original_windows_and_bounded_proofs (test_data3_branches.Data3BranchTests.test_original_windows_and_bounded_proofs) ... ok
+test_short_dispatcher_negative_vectors_and_cleanup_table (test_data3_branches.Data3BranchTests.test_short_dispatcher_negative_vectors_and_cleanup_table) ... ok
+test_unsigned_threshold_and_changed_constant (test_data3_branches.Data3BranchTests.test_unsigned_threshold_and_changed_constant) ... ok
+test_json_code_type_is_not_description_token (test_event_ledger.LedgerTests.test_json_code_type_is_not_description_token) ... ok
+test_mixed_envelopes_and_bad_line (test_event_ledger.LedgerTests.test_mixed_envelopes_and_bad_line) ... ok
+test_no_chronological_attribution (test_event_ledger.LedgerTests.test_no_chronological_attribution) ... ok
+test_parent_and_event_identity_checked (test_event_ledger.LedgerTests.test_parent_and_event_identity_checked) ... ok
+test_request_header_not_body_or_final_response (test_event_ledger.LedgerTests.test_request_header_not_body_or_final_response) ... ok
+test_sibling_marker_not_receive_origin (test_event_ledger.LedgerTests.test_sibling_marker_not_receive_origin) ... ok
+test_constructed_body_rejects_mutated_suffix_or_summary (test_interface_matrix.InterfaceMatrixTests.test_constructed_body_rejects_mutated_suffix_or_summary) ... ok
+test_endpoint_and_request_identity_mutations_rejected (test_interface_matrix.InterfaceMatrixTests.test_endpoint_and_request_identity_mutations_rejected) ... ok
+test_fixture_coverage_is_not_live_coverage (test_interface_matrix.InterfaceMatrixTests.test_fixture_coverage_is_not_live_coverage) ... ok
+test_header_only_and_split_body_are_distinguished (test_interface_matrix.InterfaceMatrixTests.test_header_only_and_split_body_are_distinguished) ... ok
+test_http_boundaries_lengths_and_framing_rejected (test_interface_matrix.InterfaceMatrixTests.test_http_boundaries_lengths_and_framing_rejected) ... ok
+test_interim_response_is_not_final_response (test_interface_matrix.InterfaceMatrixTests.test_interim_response_is_not_final_response) ... ok
+test_logind0_has_header_send_and_separate_constructed_body (test_interface_matrix.InterfaceMatrixTests.test_logind0_has_header_send_and_separate_constructed_body) ... ok
+test_model_and_preparser_crypto_are_not_decode_proof (test_interface_matrix.InterfaceMatrixTests.test_model_and_preparser_crypto_are_not_decode_proof) ... ok
+test_parser_boundary_input_options_result_and_types_rejected (test_interface_matrix.InterfaceMatrixTests.test_parser_boundary_input_options_result_and_types_rejected) ... ok
+test_recorded_numeric_and_string_codes_remain_distinct (test_interface_matrix.InterfaceMatrixTests.test_recorded_numeric_and_string_codes_remain_distinct) ... ok
+test_repeated_connect_does_not_become_verified_epoch (test_interface_matrix.InterfaceMatrixTests.test_repeated_connect_does_not_become_verified_epoch) ... ok
+test_second_fixture_crypto_precedes_response_parser (test_interface_matrix.InterfaceMatrixTests.test_second_fixture_crypto_precedes_response_parser) ... ok
+test_source_pin_rejects_wrong_hash (test_interface_matrix.InterfaceMatrixTests.test_source_pin_rejects_wrong_hash) ... ok
+test_callback_bytes_and_selectors (test_protocol_evidence.ProtocolEvidenceTests.test_callback_bytes_and_selectors) ... ok
+test_count_boundaries_and_deterministic_random (test_protocol_evidence.ProtocolEvidenceTests.test_count_boundaries_and_deterministic_random) ... ok
+test_each_invalid_field_is_rejected_individually (test_protocol_evidence.ProtocolEvidenceTests.test_each_invalid_field_is_rejected_individually) ... ok
+test_local_observations_not_endpoint_proof (test_protocol_evidence.ProtocolEvidenceTests.test_local_observations_not_endpoint_proof) ... ok
+test_missing_raw_hook_is_rejected (test_protocol_evidence.ProtocolEvidenceTests.test_missing_raw_hook_is_rejected) ... ok
+test_truncated_original_byte_window_rejected (test_protocol_evidence.ProtocolEvidenceTests.test_truncated_original_byte_window_rejected) ... ok
+test_wrong_orn_complement_mutation_detected (test_protocol_evidence.ProtocolEvidenceTests.test_wrong_orn_complement_mutation_detected) ... ok
+test_inventory_original_hashes_and_totals (test_saved_artifacts.SavedArtifactTests.test_inventory_original_hashes_and_totals) ... ok
+test_ledger_rebuild_in_temporary_directory (test_saved_artifacts.SavedArtifactTests.test_ledger_rebuild_in_temporary_directory) ... ok
+test_recharged_header_and_body_are_distinct (test_saved_artifacts.SavedArtifactTests.test_recharged_header_and_body_are_distinct) ... ok
+test_saved_binary_derivations_match_original (test_saved_artifacts.SavedArtifactTests.test_saved_binary_derivations_match_original) ... ok
+test_saved_interface_matrix_matches_originals (test_saved_artifacts.SavedArtifactTests.test_saved_interface_matrix_matches_originals) ... ok
+test_saved_parser_metadata_matches_original_logs (test_saved_artifacts.SavedArtifactTests.test_saved_parser_metadata_matches_original_logs) ... ok
+
+----------------------------------------------------------------------
+Ran 50 tests in 51.464s
+
+OK
+test_backwards_address_wrap (test_bind_provenance.BindTests.test_backwards_address_wrap) ... ok
+test_independent_lief_comparison (test_bind_provenance.BindTests.test_independent_lief_comparison) ... ok
+test_missing_bind_is_detected (test_bind_provenance.BindTests.test_missing_bind_is_detected) ... ok
+test_reject_invalid_streams (test_bind_provenance.BindTests.test_reject_invalid_streams) ... ok
+test_repeat_and_skips (test_bind_provenance.BindTests.test_repeat_and_skips) ... ok
+test_signed_addend (test_bind_provenance.BindTests.test_signed_addend) ... ok
+test_symbol_mutation_is_detected (test_bind_provenance.BindTests.test_symbol_mutation_is_detected) ... ok
+test_bytes_reload_is_after_external_ownership_call (test_buffer_arguments.ArgumentTests.test_bytes_reload_is_after_external_ownership_call) ... ok
+test_class_load_is_current_memory_not_zero_file_pointer (test_buffer_arguments.ArgumentTests.test_class_load_is_current_memory_not_zero_file_pointer) ... ok
+test_init_stops_before_wrapper_not_success_substitute (test_buffer_arguments.ArgumentTests.test_init_stops_before_wrapper_not_success_substitute) ... ok
+test_mutated_code_selector_and_import_rejected (test_buffer_arguments.ArgumentTests.test_mutated_code_selector_and_import_rejected) ... ok
+test_original_pins_and_selectors (test_buffer_arguments.ArgumentTests.test_original_pins_and_selectors) ... ok
+test_utf8_data_and_dispatch_read_current_epoch (test_buffer_arguments.ArgumentTests.test_utf8_data_and_dispatch_read_current_epoch) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.325s
+
+OK
+test_arguments_stop_before_store_or_lifetime_effects (test_parser_slot_writers.ParserSlotTests.test_arguments_stop_before_store_or_lifetime_effects) ... ok
+test_artifact_matches_original_sample (test_parser_slot_writers.ParserSlotTests.test_artifact_matches_original_sample) ... ok
+test_each_window_and_import_mutation_is_rejected (test_parser_slot_writers.ParserSlotTests.test_each_window_and_import_mutation_is_rejected) ... ok
+test_artifact_rebuild_when_present (test_receive_slices.ReceiveTests.test_artifact_rebuild_when_present) ... ok
+test_byte_store_aliases_index_slot (test_receive_slices.ReceiveTests.test_byte_store_aliases_index_slot) ... ok
+test_cleanup_count_copy_before_barrier_not_lifetime_proof (test_receive_slices.ReceiveTests.test_cleanup_count_copy_before_barrier_not_lifetime_proof) ... ok
+test_copy_both_blocks_offsets_wrap_and_byte_width (test_receive_slices.ReceiveTests.test_copy_both_blocks_offsets_wrap_and_byte_width) ... ok
+test_copy_index_read_epochs_not_conflated (test_receive_slices.ReceiveTests.test_copy_index_read_epochs_not_conflated) ... ok
+test_count_alias_counterexample (test_receive_slices.ReceiveTests.test_count_alias_counterexample) ... ok
+test_count_arithmetic_boundaries_and_seeded_random (test_receive_slices.ReceiveTests.test_count_arithmetic_boundaries_and_seeded_random) ... ok
+test_import_mutation_rejected (test_receive_slices.ReceiveTests.test_import_mutation_rejected) ... ok
+test_increment_modulo64 (test_receive_slices.ReceiveTests.test_increment_modulo64) ... ok
+test_length_and_mutable_bytes_stop_before_message_send (test_receive_slices.ReceiveTests.test_length_and_mutable_bytes_stop_before_message_send) ... ok
+test_missing_memory_unknown_opcode_and_truncated_fail (test_receive_slices.ReceiveTests.test_missing_memory_unknown_opcode_and_truncated_fail) ... ok
+test_original_pins_imports_and_selectors (test_receive_slices.ReceiveTests.test_original_pins_imports_and_selectors) ... ok
+test_pin_mutation_rejected (test_receive_slices.ReceiveTests.test_pin_mutation_rejected) ... ok
+test_pointer_setup_order_with_alias (test_receive_slices.ReceiveTests.test_pointer_setup_order_with_alias) ... ok
+test_register_width_and_partial_memory_write (test_receive_slices.ReceiveTests.test_register_width_and_partial_memory_write) ... ok
+test_resize_alias_changes_product_epoch (test_receive_slices.ReceiveTests.test_resize_alias_changes_product_epoch) ... ok
+test_resize_arguments_stop_before_external_effects (test_receive_slices.ReceiveTests.test_resize_arguments_stop_before_external_effects) ... ok
+test_selector_mutation_rejected (test_receive_slices.ReceiveTests.test_selector_mutation_rejected) ... ok
+test_unwind_is_barrier_not_length_fallthrough (test_receive_slices.ReceiveTests.test_unwind_is_barrier_not_length_fallthrough) ... ok
+test_artifact_rebuild_when_present (test_response_bridge.BridgeTests.test_artifact_rebuild_when_present) ... ok
+test_callback_option_stops_before_branch (test_response_bridge.BridgeTests.test_callback_option_stops_before_branch) ... ok
+test_callback_registration_initial_object_and_handle_order (test_response_bridge.BridgeTests.test_callback_registration_initial_object_and_handle_order) ... ok
+test_callback_replacement_is_not_response_object_identity (test_response_bridge.BridgeTests.test_callback_replacement_is_not_response_object_identity) ... ok
+test_cursor_alias_observes_write_before_read (test_response_bridge.BridgeTests.test_cursor_alias_observes_write_before_read) ... ok
+test_json_parser_stops_at_live_dispatch_and_reads_current_epoch (test_response_bridge.BridgeTests.test_json_parser_stops_at_live_dispatch_and_reads_current_epoch) ... ok
+test_option_userdata_write_and_cursor_advance (test_response_bridge.BridgeTests.test_option_userdata_write_and_cursor_advance) ... ok
+test_pins_and_scope (test_response_bridge.BridgeTests.test_pins_and_scope) ... ok
+test_postcall_memory_versions_cannot_be_assumed_stable (test_response_bridge.BridgeTests.test_postcall_memory_versions_cannot_be_assumed_stable) ... ok
+test_postcall_uses_saved_memory_not_x0_return (test_response_bridge.BridgeTests.test_postcall_uses_saved_memory_not_x0_return) ... ok
+test_primary_and_secondary_userdata_are_distinct (test_response_bridge.BridgeTests.test_primary_and_secondary_userdata_are_distinct) ... ok
+test_registration_save_can_alias_later_object_read (test_response_bridge.BridgeTests.test_registration_save_can_alias_later_object_read) ... ok
+test_registration_saves_then_passes_current_object (test_response_bridge.BridgeTests.test_registration_saves_then_passes_current_object) ... ok
+test_reject_changed_bytes_import_selector_and_route (test_response_bridge.BridgeTests.test_reject_changed_bytes_import_selector_and_route) ... ok
+test_restore_uses_current_saved_fields_not_registration_constants (test_response_bridge.BridgeTests.test_restore_uses_current_saved_fields_not_registration_constants) ... ok
+test_userdata_saved_before_retain_barrier (test_response_bridge.BridgeTests.test_userdata_saved_before_retain_barrier) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.141s
+
+OK
+Temporary reproduction matches: work/dg239-gap-reconciliation-20261019/evidence/gap.py
+Temporary reproduction matches: work/dg239-gap-reconciliation-20261019/evidence/parse_site_single_interface.py
+Temporary reproduction matches: work/dg239-gap-reconciliation-20261019/evidence/step2_logind1.py
+Temporary reproduction matches: work/dg239-logind0-receive-parser-bridge-20261019/evidence/bridge.py
+Temporary reproduction matches: work/dg239-logind0-receive-parser-bridge-20261019/evidence/parser_sites.py
+PASS: export integrity and local reproductions only; protocol completeness NOT asserted.

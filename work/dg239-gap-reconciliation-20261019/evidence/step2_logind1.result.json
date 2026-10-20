@@ -1,0 +1,69 @@
+{
+  "sample_sha": "3841f080d158a9a9f942eb0ca7f38ec8ba7e1677c23c1b92054fb82452e5cf78",
+  "step2_cross_run": {
+    "logind0": {
+      "n": 2,
+      "sizes": [
+        4560
+      ],
+      "distinct_desc_sha": 2,
+      "shas": [
+        "be3c7fe7934b",
+        "949c2cf3f4d6"
+      ],
+      "size_stable": true,
+      "content_varies_per_tx": true
+    },
+    "logind1": {
+      "n": 2,
+      "sizes": [
+        3692,
+        3708
+      ],
+      "distinct_desc_sha": 2,
+      "shas": [
+        "6900954b98c9",
+        "8f18c37e59f4"
+      ],
+      "size_stable": true,
+      "content_varies_per_tx": true
+    },
+    "recharged": {
+      "n": 4,
+      "sizes": [
+        1675
+      ],
+      "distinct_desc_sha": 4,
+      "shas": [
+        "d523b09c4437",
+        "a5497591775d",
+        "ab10ac3dfc9b",
+        "7bfb89876f41"
+      ],
+      "size_stable": true,
+      "content_varies_per_tx": true
+    }
+  },
+  "logind1_site": {
+    "parse_blocks_input_slots": {
+      "logind1@0x1005d0888": "x9, [x19, #0x3768]",
+      "otherA@0x1005da588": "x9, [x19, #0x32d0]",
+      "otherB@0x1005cef9c": "x9, [x19, #0x3400]"
+    },
+    "distinct_slots": true,
+    "logind1_input_slot": "frame[0x3768]",
+    "single_interface_reduces_to": "frame[0x3768] 的写者(谁填 logind1 输入)——同 receive→parser 桥式缺口,开放"
+  },
+  "verdict": {
+    "responses_vary_per_transaction": true,
+    "meaning": "真实逐事务响应(非固定回放);但 description≠wire 原字节,wire 原字节全库缺失(步骤3)。",
+    "logind1_single_interface": "未证(归结为 frame[0x3768] 写者);3 站点输入槽各异已证",
+    "scope": "离线;支持真实性,不证兼容闭合。"
+  },
+  "logind1_input_slot_writer": {
+    "single_writer": true,
+    "readers": 12,
+    "is_alloca": true,
+    "note": "frame[0x3768]=alloca scratch(单写者 0x1005c9d18,VLA 模式),与 logind0 frame[0x1160] 同构;parser 读 *(scratch);实际 NSData 填充=同 receive→parser 桥开放缺口"
+  }
+}

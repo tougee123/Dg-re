@@ -1,0 +1,14 @@
+{"utc": "2026-10-16T11:33:38.442358+00:00", "event": "spawned", "pid": 59462}
+{"utc": "2026-10-16T11:33:40.758031+00:00", "event": "late-attached", "pid": 59462}
+{"utc": "2026-10-16T11:33:40.787469+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "light-observers-ready", "device_ms": 1792150421618, "tid": 40451, "states": {"14c2c0c": 52, "14c2c14": 257, "14c2c18": 222, "14c2c48": 2}, "count": 9}}}
+{"utc": "2026-10-16T11:33:40.818848+00:00", "event": "observing-no-redemption-or-state-change"}
+{"utc": "2026-10-16T11:33:41.206779+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "entry", "device_ms": 1792150421812, "tid": 259, "states": {"14c2c0c": 52, "14c2c14": 257, "14c2c18": 222, "14c2c48": 2}, "name": "startup-T3", "offset": 6493052}}}
+{"utc": "2026-10-16T11:33:41.209042+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "entry", "device_ms": 1792150421813, "tid": 259, "states": {"14c2c0c": 52, "14c2c14": 257, "14c2c18": 222, "14c2c48": 2}, "name": "startup-T3", "offset": 6493052}}}
+{"utc": "2026-10-16T11:33:41.872876+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "entry", "device_ms": 1792150422703, "tid": 27659, "states": {"14c2c0c": 52, "14c2c14": 257, "14c2c18": 222, "14c2c48": 2}, "name": "response-continuation", "offset": 6401208}}}
+{"utc": "2026-10-16T11:34:02.192222+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "entry", "device_ms": 1792150442999, "tid": 259, "states": {"14c2c0c": 52, "14c2c14": 222, "14c2c18": 222, "14c2c48": 52}, "name": "startup-T3", "offset": 6493052}}}
+{"utc": "2026-10-16T11:34:03.737637+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "entry", "device_ms": 1792150444479, "tid": 259, "states": {"14c2c0c": 52, "14c2c14": 222, "14c2c18": 222, "14c2c48": 52}, "name": "startup-T3", "offset": 6493052}}}
+{"utc": "2026-10-16T11:34:10.028743+00:00", "event": "script-message", "message": {"type": "send", "payload": {"event": "entry", "device_ms": 1792150450575, "tid": 259, "states": {"14c2c0c": 52, "14c2c14": 222, "14c2c18": 222, "14c2c48": 52}, "name": "startup-T3", "offset": 6493052}}}
+{"utc": "2026-10-16T11:34:10.826942+00:00", "event": "observation-window-ended", "alive": true}
+{"utc": "2026-10-16T11:34:10.827570+00:00", "event": "intentional-detach"}
+{"utc": "2026-10-16T11:34:12.127433+00:00", "event": "detached", "reason": "application-requested", "crash_present": false}
+{"utc": "2026-10-16T11:34:18.808722+00:00", "event": "owned-transport-stopped"}

@@ -1,0 +1,235 @@
+{
+  "sample_sha256": "3841f080d158a9a9f942eb0ca7f38ec8ba7e1677c23c1b92054fb82452e5cf78",
+  "kind": "conditional original-byte linear slices",
+  "windows": [
+    {
+      "va": "0x1003a9cc0",
+      "bytes": "110000f9700100f98f0100f9cd0100f96b0140f98e0140f96d012e8a6c012eaaec032caa8c7d0d9b6d010e8a6b010eaa6b7d0d9b6b010c8b4b0100f94a0140f94a0100f1ea179f1a6a2600b9",
+      "instructions": [
+        "0x1003a9cc0: str x17, [x0]",
+        "0x1003a9cc4: str x16, [x11]",
+        "0x1003a9cc8: str x15, [x12]",
+        "0x1003a9ccc: str x13, [x14]",
+        "0x1003a9cd0: ldr x11, [x11]",
+        "0x1003a9cd4: ldr x14, [x12]",
+        "0x1003a9cd8: bic x13, x11, x14",
+        "0x1003a9cdc: orn x12, x11, x14",
+        "0x1003a9ce0: mvn x12, x12",
+        "0x1003a9ce4: mul x12, x12, x13",
+        "0x1003a9ce8: and x13, x11, x14",
+        "0x1003a9cec: orr x11, x11, x14",
+        "0x1003a9cf0: mul x11, x11, x13",
+        "0x1003a9cf4: add x11, x11, x12",
+        "0x1003a9cf8: str x11, [x10]",
+        "0x1003a9cfc: ldr x10, [x10]",
+        "0x1003a9d00: subs x10, x10, #0",
+        "0x1003a9d04: cset w10, eq",
+        "0x1003a9d08: str w10, [x19, #0x24]"
+      ]
+    },
+    {
+      "va": "0x1003a9550",
+      "bytes": "6b5640f96a1a40f9694a40f9685240f9080140f96c0140f908010c8b08014039290140f94a0140f96c0140f90b0080d26a010aeb6b010ceb4a010b8b29010aeb28010039",
+      "instructions": [
+        "0x1003a9550: ldr x11, [x19, #0xa8]",
+        "0x1003a9554: ldr x10, [x19, #0x30]",
+        "0x1003a9558: ldr x9, [x19, #0x90]",
+        "0x1003a955c: ldr x8, [x19, #0xa0]",
+        "0x1003a9560: ldr x8, [x8]",
+        "0x1003a9564: ldr x12, [x11]",
+        "0x1003a9568: add x8, x8, x12",
+        "0x1003a956c: ldrb w8, [x8]",
+        "0x1003a9570: ldr x9, [x9]",
+        "0x1003a9574: ldr x10, [x10]",
+        "0x1003a9578: ldr x12, [x11]",
+        "0x1003a957c: mov x11, #0",
+        "0x1003a9580: subs x10, x11, x10",
+        "0x1003a9584: subs x11, x11, x12",
+        "0x1003a9588: add x10, x10, x11",
+        "0x1003a958c: subs x9, x9, x10",
+        "0x1003a9590: strb w8, [x9]"
+      ]
+    },
+    {
+      "va": "0x1003a9f6c",
+      "bytes": "4a0140f9ae0140f94a010e8b4a0140396b0140f98c0140f9ae0140f90d0080d2ad010eeb8c010deb6b010c8b6a010039",
+      "instructions": [
+        "0x1003a9f6c: ldr x10, [x10]",
+        "0x1003a9f70: ldr x14, [x13]",
+        "0x1003a9f74: add x10, x10, x14",
+        "0x1003a9f78: ldrb w10, [x10]",
+        "0x1003a9f7c: ldr x11, [x11]",
+        "0x1003a9f80: ldr x12, [x12]",
+        "0x1003a9f84: ldr x14, [x13]",
+        "0x1003a9f88: mov x13, #0",
+        "0x1003a9f8c: subs x13, x13, x14",
+        "0x1003a9f90: subs x12, x12, x13",
+        "0x1003a9f94: add x11, x11, x12",
+        "0x1003a9f98: strb w10, [x11]"
+      ]
+    },
+    {
+      "va": "0x1003a9054",
+      "bytes": "685640f96a5240f9694e40f96b4a40f9604640f9600100f9290140f9490100f91f0100f9",
+      "instructions": [
+        "0x1003a9054: ldr x8, [x19, #0xa8]",
+        "0x1003a9058: ldr x10, [x19, #0xa0]",
+        "0x1003a905c: ldr x9, [x19, #0x98]",
+        "0x1003a9060: ldr x11, [x19, #0x90]",
+        "0x1003a9064: ldr x0, [x19, #0x88]",
+        "0x1003a9068: str x0, [x11]",
+        "0x1003a906c: ldr x9, [x9]",
+        "0x1003a9070: str x9, [x10]",
+        "0x1003a9074: str xzr, [x8]"
+      ]
+    },
+    {
+      "va": "0x1003a909c",
+      "bytes": "695640f96a8e40f9280140f908010a8b0805009108010aeb280100f9",
+      "instructions": [
+        "0x1003a909c: ldr x9, [x19, #0xa8]",
+        "0x1003a90a0: ldr x10, [x19, #0x118]",
+        "0x1003a90a4: ldr x8, [x9]",
+        "0x1003a90a8: add x8, x8, x10",
+        "0x1003a90ac: add x8, x8, #1",
+        "0x1003a90b0: subs x8, x8, x10",
+        "0x1003a90b4: str x8, [x9]"
+      ]
+    },
+    {
+      "va": "0x1003a9e48",
+      "bytes": "686640f96a3a40f9691a40f96b3240f92b0100f9290140f94a0140f922010a8b000140f9c84000b0019543f9483f00f0085d41f900013fd6",
+      "instructions": [
+        "0x1003a9e48: ldr x8, [x19, #0xc8]",
+        "0x1003a9e4c: ldr x10, [x19, #0x70]",
+        "0x1003a9e50: ldr x9, [x19, #0x30]",
+        "0x1003a9e54: ldr x11, [x19, #0x60]",
+        "0x1003a9e58: str x11, [x9]",
+        "0x1003a9e5c: ldr x9, [x9]",
+        "0x1003a9e60: ldr x10, [x10]",
+        "0x1003a9e64: add x2, x9, x10",
+        "0x1003a9e68: ldr x0, [x8]",
+        "0x1003a9e6c: adrp x8, #0x100bc2000",
+        "0x1003a9e70: ldr x1, [x8, #0x728]",
+        "0x1003a9e74: adrp x8, #0x100b94000",
+        "0x1003a9e78: ldr x8, [x8, #0x2b8]",
+        "0x1003a9e7c: blr x8"
+      ]
+    },
+    {
+      "va": "0x1003aa080",
+      "bytes": "606640f9693e40f9683a40f9080140f9280100f9010080d258d81c94",
+      "instructions": [
+        "0x1003aa080: ldr x0, [x19, #0xc8]",
+        "0x1003aa084: ldr x9, [x19, #0x78]",
+        "0x1003aa088: ldr x8, [x19, #0x70]",
+        "0x1003aa08c: ldr x8, [x8]",
+        "0x1003aa090: str x8, [x9]",
+        "0x1003aa094: mov x1, #0",
+        "0x1003aa098: bl #0x100ae01f8"
+      ]
+    },
+    {
+      "va": "0x1003a9200",
+      "bytes": "603640f91ed91c94617240f9606e40f9483f00f0085d41f900013fd6603200f9",
+      "instructions": [
+        "0x1003a9200: ldr x0, [x19, #0x68]",
+        "0x1003a9204: bl #0x100adf67c",
+        "0x1003a9208: ldr x1, [x19, #0xe0]",
+        "0x1003a920c: ldr x0, [x19, #0xd8]",
+        "0x1003a9210: adrp x8, #0x100b94000",
+        "0x1003a9214: ldr x8, [x8, #0x2b8]",
+        "0x1003a9218: blr x8",
+        "0x1003a921c: str x0, [x19, #0x60]"
+      ]
+    },
+    {
+      "va": "0x1003a94fc",
+      "bytes": "612640f9602240f9483f00f0085d41f900013fd6604600f9a7feff17",
+      "instructions": [
+        "0x1003a94fc: ldr x1, [x19, #0x48]",
+        "0x1003a9500: ldr x0, [x19, #0x40]",
+        "0x1003a9504: adrp x8, #0x100b94000",
+        "0x1003a9508: ldr x8, [x8, #0x2b8]",
+        "0x1003a950c: blr x8",
+        "0x1003a9510: str x0, [x19, #0x88]",
+        "0x1003a9514: b #0x1003a8fb0"
+      ]
+    }
+  ],
+  "imports": [
+    {
+      "slot_va": "0x100b942b8",
+      "file_bytes": "0000000000000000",
+      "indirect_index": 635,
+      "indirect_fileoff": 23047700,
+      "indirect_bytes": "e5010000",
+      "symbol_index": 485,
+      "symbol_fileoff": 23041528,
+      "symbol_bytes": "fc2700000100000d0000000000000000",
+      "string_fileoff": 23060156,
+      "name": "_objc_msgSend",
+      "live_target_proven": false
+    },
+    {
+      "slot_va": "0x100b942c8",
+      "file_bytes": "0000000000000000",
+      "indirect_index": 637,
+      "indirect_fileoff": 23047708,
+      "indirect_bytes": "ea010000",
+      "symbol_index": 490,
+      "symbol_fileoff": 23041608,
+      "symbol_bytes": "542800000100000d0000000000000000",
+      "string_fileoff": 23060244,
+      "name": "_objc_retain",
+      "live_target_proven": false
+    }
+  ],
+  "stubs": [
+    {
+      "stub_va": "0x100ae01b0",
+      "stub_bytes": "f0060090101a45f900021fd6",
+      "indirect_index": 332,
+      "indirect_fileoff": 23046488,
+      "indirect_bytes": "eb010000",
+      "symbol_index": 491,
+      "symbol_fileoff": 23041624,
+      "symbol_bytes": "612800000100000d0000000000000000",
+      "string_fileoff": 23060257,
+      "name": "_objc_retainAutorelease"
+    },
+    {
+      "stub_va": "0x100ae01f8",
+      "stub_bytes": "f0060090103245f900021fd6",
+      "indirect_index": 338,
+      "indirect_fileoff": 23046512,
+      "indirect_bytes": "f1010000",
+      "symbol_index": 497,
+      "symbol_fileoff": 23041720,
+      "symbol_bytes": "0d2900000100000d0000000000000000",
+      "string_fileoff": 23060429,
+      "name": "_objc_storeStrong"
+    },
+    {
+      "stub_va": "0x100adf67c",
+      "stub_bytes": "f00600b0107641f900021fd6",
+      "indirect_index": 93,
+      "indirect_fileoff": 23045532,
+      "indirect_bytes": "c9000000",
+      "symbol_index": 201,
+      "symbol_fileoff": 23036984,
+      "symbol_bytes": "131300000100000f0000000000000000",
+      "string_fileoff": 23054803,
+      "name": "__Unwind_Resume"
+    }
+  ],
+  "selectors": {
+    "0x100bc1550": "length",
+    "0x100bc1568": "mutableBytes",
+    "0x100bc2728": "setLength:"
+  },
+  "full_callback_cfg_proven": false,
+  "external_call_effects_proven": false,
+  "endpoint_attributed_live_responses_added": 0,
+  "full_decoders_closed": 0
+}

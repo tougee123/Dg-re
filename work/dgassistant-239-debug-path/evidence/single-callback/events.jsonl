@@ -1,0 +1,1 @@
+{"utc": "2026-10-16T14:06:34.950353+00:00", "event": "capture-error", "type": "AssertionError", "message": "Never close DG here"}

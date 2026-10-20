@@ -1,0 +1,1368 @@
+{
+  "response_fixtures": [
+    {
+      "source": "work/dgassistant-239-response/evidence/first-negative-protocol-257-native.json.gz",
+      "source_sha256": "c5cdfa6b680fa72143928120858ecfdda60da54b7311a4b9baf8b804a0e49c61",
+      "evidence_class": "offline_interpreter_fixture",
+      "live_transaction": false,
+      "transport": {
+        "request": {
+          "header_bytes": 174,
+          "declared_body_bytes": 2456,
+          "header_names": [
+            "host",
+            "accept",
+            "content-length",
+            "content-type",
+            "expect"
+          ],
+          "endpoint": "logind1",
+          "send_effect_indices": [
+            1
+          ],
+          "header_effect_index": 1,
+          "fd": 123,
+          "connection_attempts_before_header": 1,
+          "observed_body": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "complete_body_observed": false,
+          "send_result_verified": false,
+          "connection_epoch_verified": false,
+          "meaning": "Recorded interpreter send buffers, not live transmitted bytes"
+        },
+        "response": {
+          "header_bytes": 39,
+          "declared_body_bytes": 28,
+          "header_names": [
+            "content-length"
+          ],
+          "status": 200,
+          "receive_effect_indices": [
+            2
+          ],
+          "wire": {
+            "bytes": 67,
+            "sha256": "8c71bc839f752700e58dc91efef599adec2ff5676fa05fe57678f3ccb45a47cc"
+          },
+          "body": {
+            "bytes": 28,
+            "sha256": "2464cfece5445ae78759d967102c905d29e943567c52c1b3ff56c08edbcbb489"
+          },
+          "final": true
+        }
+      },
+      "parser": {
+        "event_index": 364,
+        "event_pointer": "/events/364",
+        "input_pointer": "/events/364/args/0",
+        "pc": "0x1005d08a8",
+        "input": {
+          "bytes": 28,
+          "sha256": "2464cfece5445ae78759d967102c905d29e943567c52c1b3ff56c08edbcbb489"
+        },
+        "fixture_receive_bytes_equal": true,
+        "field_types": {
+          "code": "str",
+          "data": "str"
+        }
+      },
+      "crypto_calls": [],
+      "later_json_parsers": [
+        {
+          "event_index": 424,
+          "pc": "0x1005da5a8",
+          "input": {
+            "bytes": 1,
+            "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+          },
+          "result_type": "NoneType"
+        }
+      ],
+      "model_events_after_parser": [
+        {
+          "event_index": 384,
+          "pc": "0x1003cb884",
+          "name": "MODEL:stringWithFormat:"
+        },
+        {
+          "event_index": 386,
+          "pc": "0x1003cb884",
+          "name": "MODEL:stringWithFormat:"
+        },
+        {
+          "event_index": 388,
+          "pc": "0x1003cb884",
+          "name": "MODEL:stringWithFormat:"
+        },
+        {
+          "event_index": 390,
+          "pc": "0x1003cb884",
+          "name": "MODEL:stringWithFormat:"
+        },
+        {
+          "event_index": 417,
+          "pc": "0x10087fc14",
+          "name": "MODEL:NSMutableData.appendBytes"
+        },
+        {
+          "event_index": 425,
+          "pc": "0x1005e2804",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 426,
+          "pc": "0x100889a38",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 427,
+          "pc": "0x100889104",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 428,
+          "pc": "0x10088917c",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 429,
+          "pc": "0x10088a848",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 430,
+          "pc": "0x10088a008",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 431,
+          "pc": "0x100601234",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 432,
+          "pc": "0x1005d1d9c",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 433,
+          "pc": "0x10060214c",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 434,
+          "pc": "0x100889dc8",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 435,
+          "pc": "0x1006014e4",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 436,
+          "pc": "0x1005cba90",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 437,
+          "pc": "0x1005e9d34",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 438,
+          "pc": "0x10088a7f8",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 439,
+          "pc": "0x10088a890",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 440,
+          "pc": "0x100604440",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 442,
+          "pc": "0x100889014",
+          "name": "MODEL:dispatch-time"
+        },
+        {
+          "event_index": 444,
+          "pc": "0x1005e2318",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 445,
+          "pc": "0x10060262c",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 447,
+          "pc": "0x10088aaa4",
+          "name": "MODEL:dispatch-time"
+        },
+        {
+          "event_index": 452,
+          "pc": "0x100889500",
+          "name": "MODEL:nil-message"
+        },
+        {
+          "event_index": 453,
+          "pc": "0x1005fc30c",
+          "name": "MODEL:nil-message"
+        }
+      ],
+      "full_response_decode_proven": false,
+      "limits": [
+        "Fixture receive bytes, not a live server response",
+        "Pre-parser crypto is not evidence of response decryption",
+        "Post-parser model operations are not native implementation proofs",
+        "No same-state authorization acceptance or UI reachability proof"
+      ]
+    },
+    {
+      "source": "work/dgassistant-239-response/evidence/first-negative-numeric-257.json.gz",
+      "source_sha256": "83cd29d8da8d5a76b7e0481fe4ebef595dcd2066349e72093e069386e2353302",
+      "evidence_class": "offline_interpreter_fixture",
+      "live_transaction": false,
+      "transport": {
+        "request": {
+          "header_bytes": 174,
+          "declared_body_bytes": 2456,
+          "header_names": [
+            "host",
+            "accept",
+            "content-length",
+            "content-type",
+            "expect"
+          ],
+          "endpoint": "logind1",
+          "send_effect_indices": [
+            1
+          ],
+          "header_effect_index": 1,
+          "fd": 123,
+          "connection_attempts_before_header": 1,
+          "observed_body": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "complete_body_observed": false,
+          "send_result_verified": false,
+          "connection_epoch_verified": false,
+          "meaning": "Recorded interpreter send buffers, not live transmitted bytes"
+        },
+        "response": {
+          "header_bytes": 39,
+          "declared_body_bytes": 26,
+          "header_names": [
+            "content-length"
+          ],
+          "status": 200,
+          "receive_effect_indices": [
+            2
+          ],
+          "wire": {
+            "bytes": 65,
+            "sha256": "17133c5e356daa7faae494ac1dfb5e57af5a23aaf6bd50234e42bcb49845a766"
+          },
+          "body": {
+            "bytes": 26,
+            "sha256": "d7eab5f767f11ba10c25d8f90ba0dd254387fb6b0bb1aa4fb2c68b698d4fc017"
+          },
+          "final": true
+        }
+      },
+      "parser": {
+        "event_index": 364,
+        "event_pointer": "/events/364",
+        "input_pointer": "/events/364/args/0",
+        "pc": "0x1005d08a8",
+        "input": {
+          "bytes": 26,
+          "sha256": "d7eab5f767f11ba10c25d8f90ba0dd254387fb6b0bb1aa4fb2c68b698d4fc017"
+        },
+        "fixture_receive_bytes_equal": true,
+        "field_types": {
+          "code": "int",
+          "data": "str"
+        }
+      },
+      "crypto_calls": [],
+      "later_json_parsers": [],
+      "model_events_after_parser": [],
+      "full_response_decode_proven": false,
+      "limits": [
+        "Fixture receive bytes, not a live server response",
+        "Pre-parser crypto is not evidence of response decryption",
+        "Post-parser model operations are not native implementation proofs",
+        "No same-state authorization acceptance or UI reachability proof"
+      ]
+    },
+    {
+      "source": "work/dgassistant-239-response/evidence/second-negative-protocol-257-native.json.gz",
+      "source_sha256": "98690f9953e78a2ce7d7eee55899313d7b4f2be5ae5f55a4e5c1eff320c34a6a",
+      "evidence_class": "offline_interpreter_fixture",
+      "live_transaction": false,
+      "transport": {
+        "request": {
+          "header_bytes": 174,
+          "declared_body_bytes": 2456,
+          "header_names": [
+            "host",
+            "accept",
+            "content-length",
+            "content-type",
+            "expect"
+          ],
+          "endpoint": "logind0",
+          "send_effect_indices": [
+            2
+          ],
+          "header_effect_index": 2,
+          "fd": 123,
+          "connection_attempts_before_header": 2,
+          "observed_body": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "complete_body_observed": false,
+          "send_result_verified": false,
+          "connection_epoch_verified": false,
+          "meaning": "Recorded interpreter send buffers, not live transmitted bytes"
+        },
+        "response": {
+          "header_bytes": 39,
+          "declared_body_bytes": 28,
+          "header_names": [
+            "content-length"
+          ],
+          "status": 200,
+          "receive_effect_indices": [
+            3
+          ],
+          "wire": {
+            "bytes": 67,
+            "sha256": "8c71bc839f752700e58dc91efef599adec2ff5676fa05fe57678f3ccb45a47cc"
+          },
+          "body": {
+            "bytes": 28,
+            "sha256": "2464cfece5445ae78759d967102c905d29e943567c52c1b3ff56c08edbcbb489"
+          },
+          "final": true
+        }
+      },
+      "parser": {
+        "event_index": 19728,
+        "event_pointer": "/events/19728",
+        "input_pointer": "/events/19728/args/0",
+        "pc": "0x1008496ac",
+        "input": {
+          "bytes": 28,
+          "sha256": "2464cfece5445ae78759d967102c905d29e943567c52c1b3ff56c08edbcbb489"
+        },
+        "fixture_receive_bytes_equal": true,
+        "field_types": {
+          "code": "str",
+          "data": "str"
+        }
+      },
+      "crypto_calls": [
+        {
+          "event_index": 680,
+          "event_pointer": "/events/680",
+          "pc": "0x100369220",
+          "name": "NATIVE:_CCCrypt",
+          "phase": "before_response_parser"
+        },
+        {
+          "event_index": 693,
+          "event_pointer": "/events/693",
+          "pc": "0x10087ecf4",
+          "name": "NATIVE:_SecKeyEncrypt",
+          "phase": "before_response_parser"
+        },
+        {
+          "event_index": 699,
+          "event_pointer": "/events/699",
+          "pc": "0x10087ecf4",
+          "name": "NATIVE:_SecKeyEncrypt",
+          "phase": "before_response_parser"
+        },
+        {
+          "event_index": 705,
+          "event_pointer": "/events/705",
+          "pc": "0x10087ecf4",
+          "name": "NATIVE:_SecKeyEncrypt",
+          "phase": "before_response_parser"
+        }
+      ],
+      "later_json_parsers": [],
+      "model_events_after_parser": [
+        {
+          "event_index": 19744,
+          "pc": "0x1003cb884",
+          "name": "MODEL:stringWithFormat:"
+        },
+        {
+          "event_index": 19746,
+          "pc": "0x1003cb884",
+          "name": "MODEL:stringWithFormat:"
+        },
+        {
+          "event_index": 19748,
+          "pc": "0x1003cb884",
+          "name": "MODEL:stringWithFormat:"
+        },
+        {
+          "event_index": 19750,
+          "pc": "0x1003cb884",
+          "name": "MODEL:stringWithFormat:"
+        },
+        {
+          "event_index": 19777,
+          "pc": "0x10087fc14",
+          "name": "MODEL:NSMutableData.appendBytes"
+        }
+      ],
+      "full_response_decode_proven": false,
+      "limits": [
+        "Fixture receive bytes, not a live server response",
+        "Pre-parser crypto is not evidence of response decryption",
+        "Post-parser model operations are not native implementation proofs",
+        "No same-state authorization acceptance or UI reachability proof"
+      ]
+    },
+    {
+      "source": "work/dgassistant-239-response/evidence/activation-negative-activation-257.json.gz",
+      "source_sha256": "b52a63678b124bb66492aaa7c99d36b56667188f0722ed7cc8a3c0171e2b151e",
+      "evidence_class": "offline_interpreter_fixture",
+      "live_transaction": false,
+      "transport": {
+        "request": {
+          "header_bytes": 153,
+          "declared_body_bytes": 374,
+          "header_names": [
+            "host",
+            "accept",
+            "content-length",
+            "content-type"
+          ],
+          "endpoint": "recharged",
+          "send_effect_indices": [
+            2
+          ],
+          "header_effect_index": 2,
+          "fd": 123,
+          "connection_attempts_before_header": 2,
+          "observed_body": {
+            "bytes": 374,
+            "sha256": "f12ee5ef7a002ab590382e580d6acc1e7bd7dc21b7f330f5b9f4c85b35196485"
+          },
+          "complete_body_observed": true,
+          "send_result_verified": false,
+          "connection_epoch_verified": false,
+          "meaning": "Recorded interpreter send buffers, not live transmitted bytes"
+        },
+        "response": {
+          "header_bytes": 39,
+          "declared_body_bytes": 28,
+          "header_names": [
+            "content-length"
+          ],
+          "status": 200,
+          "receive_effect_indices": [
+            3
+          ],
+          "wire": {
+            "bytes": 67,
+            "sha256": "8c71bc839f752700e58dc91efef599adec2ff5676fa05fe57678f3ccb45a47cc"
+          },
+          "body": {
+            "bytes": 28,
+            "sha256": "2464cfece5445ae78759d967102c905d29e943567c52c1b3ff56c08edbcbb489"
+          },
+          "final": true
+        }
+      },
+      "parser": {
+        "event_index": 1944,
+        "event_pointer": "/events/1944",
+        "input_pointer": "/events/1944/args/0",
+        "pc": "0x10037c868",
+        "input": {
+          "bytes": 28,
+          "sha256": "2464cfece5445ae78759d967102c905d29e943567c52c1b3ff56c08edbcbb489"
+        },
+        "fixture_receive_bytes_equal": true,
+        "field_types": {
+          "code": "str",
+          "data": "str"
+        }
+      },
+      "crypto_calls": [],
+      "later_json_parsers": [],
+      "model_events_after_parser": [
+        {
+          "event_index": 1945,
+          "pc": "0x1004af450",
+          "name": "MODEL:stringWithFormat:"
+        },
+        {
+          "event_index": 1954,
+          "pc": "0x10041b180",
+          "name": "MODEL:dispatch-time"
+        },
+        {
+          "event_index": 1957,
+          "pc": "0x10041b180",
+          "name": "MODEL:dispatch-time"
+        },
+        {
+          "event_index": 1965,
+          "pc": "0x100881170",
+          "name": "MODEL:device-system-version"
+        }
+      ],
+      "full_response_decode_proven": false,
+      "limits": [
+        "Fixture receive bytes, not a live server response",
+        "Pre-parser crypto is not evidence of response decryption",
+        "Post-parser model operations are not native implementation proofs",
+        "No same-state authorization acceptance or UI reachability proof"
+      ]
+    },
+    {
+      "source": "work/dgassistant-239-response/evidence/activation-negative-activation-status-303.json.gz",
+      "source_sha256": "b5a6f7db19294741ae5a7399d0d6ed28f05798d9c9e38442832be744fbc18946",
+      "evidence_class": "offline_interpreter_fixture",
+      "live_transaction": false,
+      "transport": {
+        "request": {
+          "header_bytes": 153,
+          "declared_body_bytes": 374,
+          "header_names": [
+            "host",
+            "accept",
+            "content-length",
+            "content-type"
+          ],
+          "endpoint": "recharged",
+          "send_effect_indices": [
+            2
+          ],
+          "header_effect_index": 2,
+          "fd": 123,
+          "connection_attempts_before_header": 2,
+          "observed_body": {
+            "bytes": 374,
+            "sha256": "f12ee5ef7a002ab590382e580d6acc1e7bd7dc21b7f330f5b9f4c85b35196485"
+          },
+          "complete_body_observed": true,
+          "send_result_verified": false,
+          "connection_epoch_verified": false,
+          "meaning": "Recorded interpreter send buffers, not live transmitted bytes"
+        },
+        "response": {
+          "header_bytes": 39,
+          "declared_body_bytes": 28,
+          "header_names": [
+            "content-length"
+          ],
+          "status": 200,
+          "receive_effect_indices": [
+            3
+          ],
+          "wire": {
+            "bytes": 67,
+            "sha256": "3e642c1ca5d170eeee26bcd38b3c73cb7795f94b5aeeedc9372caaa70df1092e"
+          },
+          "body": {
+            "bytes": 28,
+            "sha256": "0aa5752ea931cd3561617333d86bd9daf287debc0014885d0f8e49a6d4f33537"
+          },
+          "final": true
+        }
+      },
+      "parser": {
+        "event_index": 1945,
+        "event_pointer": "/events/1945",
+        "input_pointer": "/events/1945/args/0",
+        "pc": "0x10037c868",
+        "input": {
+          "bytes": 28,
+          "sha256": "0aa5752ea931cd3561617333d86bd9daf287debc0014885d0f8e49a6d4f33537"
+        },
+        "fixture_receive_bytes_equal": true,
+        "field_types": {
+          "code": "str",
+          "data": "str"
+        }
+      },
+      "crypto_calls": [],
+      "later_json_parsers": [],
+      "model_events_after_parser": [
+        {
+          "event_index": 1946,
+          "pc": "0x1004af450",
+          "name": "MODEL:stringWithFormat:"
+        },
+        {
+          "event_index": 1951,
+          "pc": "0x10041b180",
+          "name": "MODEL:dispatch-time"
+        },
+        {
+          "event_index": 1954,
+          "pc": "0x10041b180",
+          "name": "MODEL:dispatch-time"
+        },
+        {
+          "event_index": 1962,
+          "pc": "0x100881170",
+          "name": "MODEL:device-system-version"
+        }
+      ],
+      "full_response_decode_proven": false,
+      "limits": [
+        "Fixture receive bytes, not a live server response",
+        "Pre-parser crypto is not evidence of response decryption",
+        "Post-parser model operations are not native implementation proofs",
+        "No same-state authorization acceptance or UI reachability proof"
+      ]
+    },
+    {
+      "source": "work/dgassistant-239-response/evidence/activation-negative-activation-status-304.json.gz",
+      "source_sha256": "60655d7f03c5da5021e2e661a143a2f4499540f2d7505d07089062cbab5ec3fd",
+      "evidence_class": "offline_interpreter_fixture",
+      "live_transaction": false,
+      "transport": {
+        "request": {
+          "header_bytes": 153,
+          "declared_body_bytes": 374,
+          "header_names": [
+            "host",
+            "accept",
+            "content-length",
+            "content-type"
+          ],
+          "endpoint": "recharged",
+          "send_effect_indices": [
+            2
+          ],
+          "header_effect_index": 2,
+          "fd": 123,
+          "connection_attempts_before_header": 2,
+          "observed_body": {
+            "bytes": 374,
+            "sha256": "f12ee5ef7a002ab590382e580d6acc1e7bd7dc21b7f330f5b9f4c85b35196485"
+          },
+          "complete_body_observed": true,
+          "send_result_verified": false,
+          "connection_epoch_verified": false,
+          "meaning": "Recorded interpreter send buffers, not live transmitted bytes"
+        },
+        "response": {
+          "header_bytes": 39,
+          "declared_body_bytes": 28,
+          "header_names": [
+            "content-length"
+          ],
+          "status": 200,
+          "receive_effect_indices": [
+            3
+          ],
+          "wire": {
+            "bytes": 67,
+            "sha256": "ecfba72d009ee5ce710cd055bbf7ffee739890498ed6f9832f33805a3b790e1b"
+          },
+          "body": {
+            "bytes": 28,
+            "sha256": "830d08ae1beb90eb8ce6e8043e1a6f4bacc8e69c5eba841c3565e80e62ddf876"
+          },
+          "final": true
+        }
+      },
+      "parser": {
+        "event_index": 1945,
+        "event_pointer": "/events/1945",
+        "input_pointer": "/events/1945/args/0",
+        "pc": "0x10037c868",
+        "input": {
+          "bytes": 28,
+          "sha256": "830d08ae1beb90eb8ce6e8043e1a6f4bacc8e69c5eba841c3565e80e62ddf876"
+        },
+        "fixture_receive_bytes_equal": true,
+        "field_types": {
+          "code": "str",
+          "data": "str"
+        }
+      },
+      "crypto_calls": [],
+      "later_json_parsers": [],
+      "model_events_after_parser": [
+        {
+          "event_index": 1946,
+          "pc": "0x1004af450",
+          "name": "MODEL:stringWithFormat:"
+        },
+        {
+          "event_index": 1953,
+          "pc": "0x10041b180",
+          "name": "MODEL:dispatch-time"
+        },
+        {
+          "event_index": 1956,
+          "pc": "0x10041b180",
+          "name": "MODEL:dispatch-time"
+        },
+        {
+          "event_index": 1964,
+          "pc": "0x100881170",
+          "name": "MODEL:device-system-version"
+        }
+      ],
+      "full_response_decode_proven": false,
+      "limits": [
+        "Fixture receive bytes, not a live server response",
+        "Pre-parser crypto is not evidence of response decryption",
+        "Post-parser model operations are not native implementation proofs",
+        "No same-state authorization acceptance or UI reachability proof"
+      ]
+    },
+    {
+      "source": "work/dgassistant-239-response/evidence/activation-negative-activation-status-305.json.gz",
+      "source_sha256": "c0c81bd0794611b76d46923f69a734c65e1f43005caa5186373a6f0dff9e9f8e",
+      "evidence_class": "offline_interpreter_fixture",
+      "live_transaction": false,
+      "transport": {
+        "request": {
+          "header_bytes": 153,
+          "declared_body_bytes": 374,
+          "header_names": [
+            "host",
+            "accept",
+            "content-length",
+            "content-type"
+          ],
+          "endpoint": "recharged",
+          "send_effect_indices": [
+            2
+          ],
+          "header_effect_index": 2,
+          "fd": 123,
+          "connection_attempts_before_header": 2,
+          "observed_body": {
+            "bytes": 374,
+            "sha256": "f12ee5ef7a002ab590382e580d6acc1e7bd7dc21b7f330f5b9f4c85b35196485"
+          },
+          "complete_body_observed": true,
+          "send_result_verified": false,
+          "connection_epoch_verified": false,
+          "meaning": "Recorded interpreter send buffers, not live transmitted bytes"
+        },
+        "response": {
+          "header_bytes": 39,
+          "declared_body_bytes": 28,
+          "header_names": [
+            "content-length"
+          ],
+          "status": 200,
+          "receive_effect_indices": [
+            3
+          ],
+          "wire": {
+            "bytes": 67,
+            "sha256": "6ee2a9c571992d3c88fe1c8a1f49d0d89fe6ce6e0901d8b7af407a67df8d8b59"
+          },
+          "body": {
+            "bytes": 28,
+            "sha256": "c82799ff32e4c97434872262b955ef69da055a1cb191c9592b6528abfc2b68a9"
+          },
+          "final": true
+        }
+      },
+      "parser": {
+        "event_index": 1945,
+        "event_pointer": "/events/1945",
+        "input_pointer": "/events/1945/args/0",
+        "pc": "0x10037c868",
+        "input": {
+          "bytes": 28,
+          "sha256": "c82799ff32e4c97434872262b955ef69da055a1cb191c9592b6528abfc2b68a9"
+        },
+        "fixture_receive_bytes_equal": true,
+        "field_types": {
+          "code": "str",
+          "data": "str"
+        }
+      },
+      "crypto_calls": [],
+      "later_json_parsers": [],
+      "model_events_after_parser": [
+        {
+          "event_index": 1946,
+          "pc": "0x1004af450",
+          "name": "MODEL:stringWithFormat:"
+        },
+        {
+          "event_index": 1955,
+          "pc": "0x10041b180",
+          "name": "MODEL:dispatch-time"
+        },
+        {
+          "event_index": 1958,
+          "pc": "0x10041b180",
+          "name": "MODEL:dispatch-time"
+        },
+        {
+          "event_index": 1966,
+          "pc": "0x100881170",
+          "name": "MODEL:device-system-version"
+        }
+      ],
+      "full_response_decode_proven": false,
+      "limits": [
+        "Fixture receive bytes, not a live server response",
+        "Pre-parser crypto is not evidence of response decryption",
+        "Post-parser model operations are not native implementation proofs",
+        "No same-state authorization acceptance or UI reachability proof"
+      ]
+    },
+    {
+      "source": "work/dgassistant-239-response/evidence/activation-negative-activation-status-306.json.gz",
+      "source_sha256": "99fc3a1947e20d8a51c862a594005d64c3d864628417a7c117ec7b0c473485fc",
+      "evidence_class": "offline_interpreter_fixture",
+      "live_transaction": false,
+      "transport": {
+        "request": {
+          "header_bytes": 153,
+          "declared_body_bytes": 374,
+          "header_names": [
+            "host",
+            "accept",
+            "content-length",
+            "content-type"
+          ],
+          "endpoint": "recharged",
+          "send_effect_indices": [
+            2
+          ],
+          "header_effect_index": 2,
+          "fd": 123,
+          "connection_attempts_before_header": 2,
+          "observed_body": {
+            "bytes": 374,
+            "sha256": "f12ee5ef7a002ab590382e580d6acc1e7bd7dc21b7f330f5b9f4c85b35196485"
+          },
+          "complete_body_observed": true,
+          "send_result_verified": false,
+          "connection_epoch_verified": false,
+          "meaning": "Recorded interpreter send buffers, not live transmitted bytes"
+        },
+        "response": {
+          "header_bytes": 39,
+          "declared_body_bytes": 28,
+          "header_names": [
+            "content-length"
+          ],
+          "status": 200,
+          "receive_effect_indices": [
+            3
+          ],
+          "wire": {
+            "bytes": 67,
+            "sha256": "4fc03dc56f122c6f9eefecfe68f4519e87e263f97d5ebef8b173b659b4b0a78e"
+          },
+          "body": {
+            "bytes": 28,
+            "sha256": "689f9614846925170ab817c49d544bb72dc8f837107f2b9c5f7f20d7a0626b5d"
+          },
+          "final": true
+        }
+      },
+      "parser": {
+        "event_index": 1945,
+        "event_pointer": "/events/1945",
+        "input_pointer": "/events/1945/args/0",
+        "pc": "0x10037c868",
+        "input": {
+          "bytes": 28,
+          "sha256": "689f9614846925170ab817c49d544bb72dc8f837107f2b9c5f7f20d7a0626b5d"
+        },
+        "fixture_receive_bytes_equal": true,
+        "field_types": {
+          "code": "str",
+          "data": "str"
+        }
+      },
+      "crypto_calls": [],
+      "later_json_parsers": [],
+      "model_events_after_parser": [
+        {
+          "event_index": 1946,
+          "pc": "0x1004af450",
+          "name": "MODEL:stringWithFormat:"
+        },
+        {
+          "event_index": 1949,
+          "pc": "0x10041b180",
+          "name": "MODEL:dispatch-time"
+        },
+        {
+          "event_index": 1952,
+          "pc": "0x10041b180",
+          "name": "MODEL:dispatch-time"
+        },
+        {
+          "event_index": 1960,
+          "pc": "0x100881170",
+          "name": "MODEL:device-system-version"
+        }
+      ],
+      "full_response_decode_proven": false,
+      "limits": [
+        "Fixture receive bytes, not a live server response",
+        "Pre-parser crypto is not evidence of response decryption",
+        "Post-parser model operations are not native implementation proofs",
+        "No same-state authorization acceptance or UI reachability proof"
+      ]
+    }
+  ],
+  "construction_fixtures": [
+    {
+      "source": "work/dgassistant-239-startup/evidence/activation-second-json-exploration.json.gz",
+      "source_sha256": "5908d5aff538cc864be31906f3d6837581db1294c2d719e017790d5ffb61a5b5",
+      "evidence_class": "offline_interpreter_fixture",
+      "live_transaction": false,
+      "transport": {
+        "request": {
+          "header_bytes": 174,
+          "declared_body_bytes": 2456,
+          "header_names": [
+            "host",
+            "accept",
+            "content-length",
+            "content-type",
+            "expect"
+          ],
+          "endpoint": "logind0",
+          "send_effect_indices": [
+            2
+          ],
+          "header_effect_index": 2,
+          "fd": 123,
+          "connection_attempts_before_header": 2,
+          "observed_body": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "complete_body_observed": false,
+          "send_result_verified": false,
+          "connection_epoch_verified": false,
+          "meaning": "Recorded interpreter send buffers, not live transmitted bytes"
+        },
+        "response": null
+      },
+      "json_constructions": [
+        {
+          "event_index": 400,
+          "event_pointer": "/events/400",
+          "pc": "0x100896794",
+          "fields": {
+            "username": "str",
+            "password": "str",
+            "machine_code": "str",
+            "machine_codee": "str",
+            "machine_codeee": "str",
+            "machine_codeeee": "str",
+            "machine_codeeeee": "str"
+          },
+          "encoded": {
+            "bytes": 277,
+            "sha256": "6cdca9343136e87ae6ec888dac555b2fdb24ef547871818d6cb869a4a9bda26e"
+          }
+        },
+        {
+          "event_index": 490,
+          "event_pointer": "/events/490",
+          "pc": "0x10084fca8",
+          "fields": {
+            "data": "str",
+            "code": "int"
+          },
+          "encoded": {
+            "bytes": 59,
+            "sha256": "17d03e21ec67115fef7bc94b246c7bf51eb695ec29457a133b204f26459a6a73"
+          }
+        },
+        {
+          "event_index": 673,
+          "event_pointer": "/events/673",
+          "pc": "0x1008133a8",
+          "fields": {
+            "username": "str",
+            "password": "str",
+            "machine_code": "str",
+            "machine_codee": "str",
+            "machine_codeee": "str",
+            "machine_codeeee": "int",
+            "machine_codeeeee": "int"
+          },
+          "encoded": {
+            "bytes": 283,
+            "sha256": "122e0070a3d9f0f96041678d1538551568da6ad01258af1f6024a2ca5676d691"
+          }
+        },
+        {
+          "event_index": 19349,
+          "event_pointer": "/events/19349",
+          "pc": "0x10089669c",
+          "fields": {
+            "data25": "str"
+          },
+          "encoded": {
+            "bytes": 2061,
+            "sha256": "249606da24448ec3ed0570df4e78cb7862e974a0f5a5f2a8419ec6463b4d83f9"
+          }
+        }
+      ],
+      "body_object_fragments": [
+        {
+          "json_pointer": "/events/19374/args/1",
+          "pc": "0x100421164",
+          "bytes": 2068,
+          "sha256": "59af6239da16322c74068ba12b83f832a0c29da2b5cd9dffe9987c36c229cc06"
+        },
+        {
+          "json_pointer": "/events/19377/args/0",
+          "pc": "0x100421164",
+          "bytes": 2422,
+          "sha256": "7b0d3b333153a6c1ebb8261086bd13c769d473c0020ba5ede64d088d28a27ad2"
+        },
+        {
+          "json_pointer": "/events/19380/args/0",
+          "pc": "0x100421164",
+          "bytes": 2439,
+          "sha256": "eadd3fb7f68d9de8457674614cd6084a3251de27a75e0857e6bc760fbe6fe048"
+        },
+        {
+          "json_pointer": "/events/19384/args/0",
+          "pc": "0x100850d14",
+          "bytes": 2456,
+          "sha256": "fcf2cbae9e512dde841b7df9fdfdb0641a6938e4fdb5cb4464716425bb64740c"
+        }
+      ],
+      "body_fields": [
+        "id",
+        "data",
+        "data2",
+        "data3",
+        "data5",
+        "data6"
+      ],
+      "body_object_is_socket_send": false
+    },
+    {
+      "source": "work/dgassistant-239-startup/evidence/activation-clipboard-final-exploration.json.gz",
+      "source_sha256": "946560b2c77ae7dd7793384e6af1a4459dd6c50de298758d0690e2f2a2c33cbd",
+      "evidence_class": "offline_interpreter_fixture",
+      "live_transaction": false,
+      "transport": {
+        "request": {
+          "header_bytes": 153,
+          "declared_body_bytes": 374,
+          "header_names": [
+            "host",
+            "accept",
+            "content-length",
+            "content-type"
+          ],
+          "endpoint": "recharged",
+          "send_effect_indices": [
+            3
+          ],
+          "header_effect_index": 3,
+          "fd": 123,
+          "connection_attempts_before_header": 3,
+          "observed_body": {
+            "bytes": 374,
+            "sha256": "f12ee5ef7a002ab590382e580d6acc1e7bd7dc21b7f330f5b9f4c85b35196485"
+          },
+          "complete_body_observed": true,
+          "send_result_verified": false,
+          "connection_epoch_verified": false,
+          "meaning": "Recorded interpreter send buffers, not live transmitted bytes"
+        },
+        "response": null
+      },
+      "json_constructions": [
+        {
+          "event_index": 672,
+          "event_pointer": "/events/672",
+          "pc": "0x1004aec9c",
+          "fields": {
+            "username": "str",
+            "recharge_card": "str"
+          },
+          "encoded": {
+            "bytes": 112,
+            "sha256": "7b10ab02b262147ee71c66780ee8833146deeecb52568cce3beb42eb5c1ad5fd"
+          }
+        },
+        {
+          "event_index": 734,
+          "event_pointer": "/events/734",
+          "pc": "0x1004ae824",
+          "fields": {
+            "username": "str",
+            "recharge_card": "str"
+          },
+          "encoded": {
+            "bytes": 99,
+            "sha256": "249ac4d0734c0413caae35e9305efd45fb92f23b8dec06f8ee4100b59ea7bd6d"
+          }
+        },
+        {
+          "event_index": 1947,
+          "event_pointer": "/events/1947",
+          "pc": "0x100883820",
+          "fields": {
+            "data3": "str"
+          },
+          "encoded": {
+            "bytes": 210,
+            "sha256": "80e5712cdeb9385a972157f326284df3a99f43817efe489e9b14100fadc4609d"
+          }
+        }
+      ]
+    }
+  ],
+  "preflight": {
+    "source": "work/dgassistant-239-auth/evidence/response-negative-exploration.json.gz",
+    "source_sha256": "1fb641df4bda4bddb48ba9712c9e3d775d826b5091e5714d892c58296ca05d92",
+    "cases": [
+      {
+        "case_pointer": "/0",
+        "transport": null,
+        "event_count": 333,
+        "evidence_class": "offline_interpreter_fixture"
+      },
+      {
+        "case_pointer": "/1",
+        "transport": {
+          "request": {
+            "header_bytes": 174,
+            "declared_body_bytes": 2456,
+            "header_names": [
+              "host",
+              "accept",
+              "content-length",
+              "content-type",
+              "expect"
+            ],
+            "endpoint": "logind1",
+            "send_effect_indices": [
+              1
+            ],
+            "header_effect_index": 1,
+            "fd": 123,
+            "connection_attempts_before_header": 1,
+            "observed_body": {
+              "bytes": 0,
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            "complete_body_observed": false,
+            "send_result_verified": false,
+            "connection_epoch_verified": false,
+            "meaning": "Recorded interpreter send buffers, not live transmitted bytes"
+          },
+          "response": null
+        },
+        "event_count": 235,
+        "evidence_class": "offline_interpreter_fixture"
+      },
+      {
+        "case_pointer": "/2",
+        "transport": {
+          "request": {
+            "header_bytes": 174,
+            "declared_body_bytes": 2456,
+            "header_names": [
+              "host",
+              "accept",
+              "content-length",
+              "content-type",
+              "expect"
+            ],
+            "endpoint": "logind1",
+            "send_effect_indices": [
+              1
+            ],
+            "header_effect_index": 1,
+            "fd": 123,
+            "connection_attempts_before_header": 1,
+            "observed_body": {
+              "bytes": 0,
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            "complete_body_observed": false,
+            "send_result_verified": false,
+            "connection_epoch_verified": false,
+            "meaning": "Recorded interpreter send buffers, not live transmitted bytes"
+          },
+          "response": null
+        },
+        "event_count": 235,
+        "evidence_class": "offline_interpreter_fixture"
+      },
+      {
+        "case_pointer": "/3",
+        "transport": {
+          "request": {
+            "header_bytes": 174,
+            "declared_body_bytes": 2456,
+            "header_names": [
+              "host",
+              "accept",
+              "content-length",
+              "content-type",
+              "expect"
+            ],
+            "endpoint": "logind1",
+            "send_effect_indices": [
+              1
+            ],
+            "header_effect_index": 1,
+            "fd": 123,
+            "connection_attempts_before_header": 1,
+            "observed_body": {
+              "bytes": 0,
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            "complete_body_observed": false,
+            "send_result_verified": false,
+            "connection_epoch_verified": false,
+            "meaning": "Recorded interpreter send buffers, not live transmitted bytes"
+          },
+          "response": null
+        },
+        "event_count": 235,
+        "evidence_class": "offline_interpreter_fixture"
+      },
+      {
+        "case_pointer": "/4",
+        "transport": {
+          "request": {
+            "header_bytes": 174,
+            "declared_body_bytes": 2456,
+            "header_names": [
+              "host",
+              "accept",
+              "content-length",
+              "content-type",
+              "expect"
+            ],
+            "endpoint": "logind1",
+            "send_effect_indices": [
+              1
+            ],
+            "header_effect_index": 1,
+            "fd": 123,
+            "connection_attempts_before_header": 1,
+            "observed_body": {
+              "bytes": 0,
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            "complete_body_observed": false,
+            "send_result_verified": false,
+            "connection_epoch_verified": false,
+            "meaning": "Recorded interpreter send buffers, not live transmitted bytes"
+          },
+          "response": {
+            "header_bytes": 45,
+            "declared_body_bytes": 2,
+            "header_names": [
+              "content-length"
+            ],
+            "status": 403,
+            "receive_effect_indices": [
+              2
+            ],
+            "wire": {
+              "bytes": 47,
+              "sha256": "d345084c9312a8f6a5ee5ac779128c46e5edb70c92d450766a62cd27e07ce0b2"
+            },
+            "body": {
+              "bytes": 2,
+              "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            },
+            "final": true
+          }
+        },
+        "event_count": 370,
+        "evidence_class": "offline_interpreter_fixture"
+      },
+      {
+        "case_pointer": "/5",
+        "transport": {
+          "request": {
+            "header_bytes": 174,
+            "declared_body_bytes": 2456,
+            "header_names": [
+              "host",
+              "accept",
+              "content-length",
+              "content-type",
+              "expect"
+            ],
+            "endpoint": "logind1",
+            "send_effect_indices": [
+              1,
+              4
+            ],
+            "header_effect_index": 1,
+            "fd": 123,
+            "connection_attempts_before_header": 1,
+            "observed_body": {
+              "bytes": 2456,
+              "sha256": "f11012a68adf907fa06d14ea545c17c8bd000f85b76e57593c90779a6f11737f"
+            },
+            "complete_body_observed": true,
+            "send_result_verified": false,
+            "connection_epoch_verified": false,
+            "meaning": "Recorded interpreter send buffers, not live transmitted bytes"
+          },
+          "response": {
+            "header_bytes": 25,
+            "declared_body_bytes": null,
+            "header_names": [],
+            "status": 100,
+            "receive_effect_indices": [
+              2,
+              3
+            ],
+            "wire": {
+              "bytes": 25,
+              "sha256": "61ff61939e80764a682aed22b20c4d147cf967cbdc2d569830a8eec7ffe189df"
+            },
+            "body": {
+              "bytes": 0,
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            "final": false
+          }
+        },
+        "event_count": 300,
+        "evidence_class": "offline_interpreter_fixture"
+      }
+    ],
+    "omission_proven": false
+  },
+  "scope": "Offline metadata audit only; no target execution, requests, redemption, or authorization changes"
+}
